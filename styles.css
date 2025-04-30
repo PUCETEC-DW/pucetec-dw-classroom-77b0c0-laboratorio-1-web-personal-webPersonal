@@ -1,0 +1,15 @@
+html{
+    background-color: beige;
+}
+header{
+    color: aqua;
+}
+h1{
+    color: rgba(255, 0, 0, 0.534);
+}
+footer{
+    color: rgba(0, 68, 255, 0.534);
+}
+a{
+    color: greenyellow;
+}
