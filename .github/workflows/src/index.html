@@ -10,28 +10,68 @@
     <header>
         <h1>¡Hola! Soy Armando</h1>
     </header>
+    <figure>
+        <img id="img1" src="https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn" alt="Desarrollo Web">
+        <figcaption>Desarrollo web</figcaption>
+    </figure>
     <nav class="apartados">
-            <label>Detalles</label> |
-            <label>Hobbies</label> |
-            <label>Espectativas</label> |
-            <label>Contacto</label>
+            <label>Informacion</label> |
+            <label>Skills</label> |
+            <label><a href="#Espectativas">Espectativas</a></label> |
+            <label><a href="#Contacto">Contacto</a></label>
     </nav>
     <main>
         <section class="info">
-            <ol>
-                <li><b>Nombre:</b> Armando Estevez</li>
-                <li><b>Edad:</b> 27 años</li>
-                <li><b>Carrera:</b> Desarrollo de Software</li>
-                <li><b>iudad:</b>C Quito</li>
-            </ol> 
+            <details>
+                <summary>Informacion</summary>
+                <ol type="A">
+                    <li><b>Nombre:</b> Armando Estevez</li>
+                    <li><b>Edad:</b> 27 años</li>
+                    <li><b>Carrera:</b> Desarrollo de Software</li>
+                    <li><b>Ciudad:</b>C Quito</li>
+                </ol> 
+            </details>
         </section>
         <aside>
-            <p>Texto plano</p>
+            <dl>
+                <dt>Skill</dt>
+                <dd>
+                    En el transcurso de la carrea he aprendido:
+                    <ul>
+                        <li>Python</li>
+                        <li>C#</li>
+                        <li>javaScript</li>
+                    </ul>
+                </dd>
+                <dt id="Espectativas">Espectativas</dt>
+                <dd>
+                    Las espectativas en este curso es aprender lo mejor posible <br>
+                    para asi porder desempeñarme en los siguientes cursos <br>
+                    de la mejor manera.
+                    Colaborar en el aprendizaje de mi alrededor y <br>
+                    fortalecer la union.
+                </dd>
+                <dt id="Contacto">Contacto</dt>
+                <dd>
+                    <p>Me puedes contactar en:</p>
+                    <table border="2px" class="tabla1">
+                        <tr>
+                            <th colspan="1">Github</th>
+                            <th colspan="1">Correo</th>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/Arm4nd7"><img src="https://github.githubassets.com/favicons/favicon.png" alt="Logo de Github"></a></td>
+                            <td><a href="mailto:axestevez@puce.edu.ec"><img src="https://pucetec.puce.edu.ec/2025/theme/image.php/puce/theme/1745942849/favicon" alt="Logo PUCE"></a></td>
+                        </tr>
+                    </table>
+                </dd>
+            </dl>
         </aside>
     </main>
     <footer id="piePagina">
         <address>Quito, Ecuador</address>
         <small>
+            <!--Entidades(cadena de caracter especial)-->
             &copy; Desarrollado by Armando Estevez 2025
         </small>
     </footer>
