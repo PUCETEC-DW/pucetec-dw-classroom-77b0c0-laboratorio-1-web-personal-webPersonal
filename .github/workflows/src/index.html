@@ -8,22 +8,26 @@
 </head>
 <body>
     <header>
-        <h1>¡Hola! Soy Armando</h1>
+            <h1>¡Hola! Soy Armando</h1>
     </header>
+    
     <figure>
         <img id="img1" src="https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn" alt="Desarrollo Web">
         <figcaption>Desarrollo web</figcaption>
     </figure>
     <nav class="apartados">
-            <label>Informacion</label> |
-            <label>Skills</label> |
-            <label><a href="#Espectativas">Espectativas</a></label> |
-            <label><a href="#Contacto">Contacto</a></label>
+        <ul id="descripcion">
+            <li><a href="#Informacion">Informacion</a></li> 
+            <li><a href="#Herramientas">Herramientas</a></li> 
+            <li><a href="#Espectativas">Espectativas</a></li> 
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
     </nav>
+    <div class="clearfloat"></div> <!--Ayuda a separar los elementos flotantes-->
     <main>
         <section class="info">
             <details>
-                <summary>Informacion</summary>
+                <summary id="Informacion" >Informacion</summary>
                 <ol type="A">
                     <li><b>Nombre:</b> Armando Estevez</li>
                     <li><b>Edad:</b> 27 años</li>
@@ -34,7 +38,7 @@
         </section>
         <aside>
             <dl>
-                <dt>Skill</dt>
+                <dt id="Herramientas">Herramientas</dt>
                 <dd>
                     En el transcurso de la carrea he aprendido:
                     <ul>
