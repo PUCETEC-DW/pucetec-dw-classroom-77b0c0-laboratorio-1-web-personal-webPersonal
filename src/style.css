@@ -43,9 +43,10 @@ footer {
   --grid-line-width: 2px;
 }
 .main-grid {
-  margin: 3rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1800px;
+  width: 90%;
 
   display: grid;
   grid-template-columns: repeat(var(--grid-columns), 1fr);
@@ -53,15 +54,13 @@ footer {
   aspect-ratio: var(--grid-columns) / var(--grid-rows);
   position: relative;
   overflow: hidden;
+  border-bottom: var(--grid-line-width) solid var(--grid-line-color);
+  border-right: var(--grid-line-width) solid var(--grid-line-color);
 }
 
 .main-grid::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   z-index: 0;
   inset: 0;
 
@@ -94,27 +93,25 @@ footer {
   grid-row: 3 / span 10;
   background-color: #fedc00;
   outline: var(--grid-line-width) solid var(--grid-line-color);
-  outline-offset: calc(-1 * var(--grid-line-width)); 
+  outline-offset: calc(-1 * var(--grid-line-width));
 }
 
 .skills-box {
   grid-column: 5 / span 3;
   grid-row: 7 / span 4;
   background-color: white;
-  /* border: 2px solid black; */
   z-index: 2;
   outline: var(--grid-line-width) solid var(--grid-line-color);
-  outline-offset: calc(-1 * var(--grid-line-width)); 
+  outline-offset: calc(-1 * var(--grid-line-width));
 }
 
 .image-box {
   grid-column: 10 / span 6;
   grid-row: 5 / span 9;
-  /* border: 2px solid black; */
   z-index: 3;
   padding: 0;
   outline: var(--grid-line-width) solid var(--grid-line-color);
-  outline-offset: calc(-1 * var(--grid-line-width)); 
+  outline-offset: calc(-1 * var(--grid-line-width));
 }
 
 .learning-box {
@@ -123,17 +120,16 @@ footer {
   background-color: white;
   z-index: 2;
   outline: var(--grid-line-width) solid var(--grid-line-color);
-  outline-offset: calc(-1 * var(--grid-line-width)); 
+  outline-offset: calc(-1 * var(--grid-line-width));
 }
 
 .reading-box {
   grid-column: 24 / span 3;
   grid-row: 6 / span 4;
   background-color: white;
-  /* border: 2px solid black; */
   z-index: 2;
   outline: var(--grid-line-width) solid var(--grid-line-color);
-  outline-offset: calc(-1 * var(--grid-line-width)); 
+  outline-offset: calc(-1 * var(--grid-line-width));
 }
 
 .grid-image {
