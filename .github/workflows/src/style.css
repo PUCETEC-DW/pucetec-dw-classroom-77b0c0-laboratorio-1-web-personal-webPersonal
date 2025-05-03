@@ -54,9 +54,9 @@ form label{
     margin-top: 0.3em;
 }
 #sugerencia{
-    display: flex;
     padding: 3%;
     margin: 2px;
+    width: auto;
     font-size: 33px;
 }
 textarea{
@@ -67,20 +67,27 @@ textarea{
 h3{
     font-family: Cambria;
     font-size: 27px;
+    color: rgb(226, 186, 140);
+
 }
 dd{
     font-size: 20px;
+    
 }
 #informacion{
-    background-color: rgb(150, 209, 255);
+    background-color: rgba(50, 113, 161, 0.552);
     padding: 12px;
     display: flex;
+    align-items: center;
+}
+details{
+    margin-left: 15%;
 }
 .yo{
     width: 270px;
     height: 270px;
     border-radius: 2rem;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 #informacion details{
     font-size: 34px;
@@ -94,7 +101,7 @@ dd{
     padding: 30px 20px;
 }
 #maquetas{
-    padding: 200px 12px;
+    padding: 150px 12px;
     background-image: url("https://cdn.andro4all.com/andro4all/2016/07/fondos-pantalla-android-2.jpg?width=800");
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,7 +140,7 @@ dd{
     color: #59c5c2;
     padding: 30px;
     width: 50%;
-    background-image:linear-gradient(
+    background-image: linear-gradient(
         0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
     )   ,url("https://consejotecnologico.com/wp-content/uploads/2019/03/istock-658846350.jpg");
     background-size: cover;
@@ -146,11 +153,58 @@ button{
     background-color: #59c5c2;
     border-radius: 0.2rem;
     font-size: 33px;
+    align-content: end;
+}
+ol{
+    display: flex;
+}
+.python{
+    padding: 20px 8px;
+    border-radius: 0.3rem;
+    margin: 4%;
+    background-image: linear-gradient(
+        0deg, rgba(0, 0, 0, 0.737),rgba(0, 0, 0, 0.43)
+    )   ,url("https://th.bing.com/th/id/OIP.Q9xNsOSUxpRXJ1O61Pn_uwHaDt?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: rgb(80, 246, 243);
+
+
+}
+.csharp{
+    padding: 20px 8px;
+    border-radius: 0.3rem;
+    margin: 4%;
+    background-image: linear-gradient(
+        0deg, rgba(0, 0, 0, 0.693),rgba(0,0,0,0.5)
+    )   ,url("https://store-images.s-microsoft.com/image/apps.6182.13979687581806399.1baa13f8-75c6-40c4-9957-dbae810e256c.738d1127-4fac-4850-b8bb-5cf701140088");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: rgb(80, 246, 243);
+    
+}
+.javaScript{
+    padding: 20px 8px;
+    border-radius: 0.3rem;
+    margin: 4%;
+    background-image: linear-gradient(
+        0deg, rgba(0, 0, 0, 0.693),rgba(0,0,0,0.5)
+    )   ,url("https://play-lh.googleusercontent.com/SDRKeYeVIRzA5TW4W7w3JX4kykKdG5Be12Dba5xWVABB2FCZXB4iGK5pskq9tvNVMg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: rgb(80, 246, 243);
+
+
+
 }
 #piePagina{
     padding: 3%;
     text-align: center;
-    background-color: rgba(46, 201, 225, 0.141);
+    background-color: rgba(30, 100, 100, 0.31);
+
     border-radius: 0.7rem;
 }
 
