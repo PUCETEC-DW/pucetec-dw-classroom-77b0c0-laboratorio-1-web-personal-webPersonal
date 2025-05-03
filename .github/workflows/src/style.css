@@ -1,126 +1,86 @@
-html{
-    background-color: rgba(211, 239, 239, 0.608);
-}
 body{
-    margin: 0 10%;
+    background-color: rgba(211, 239, 239, 0.608); 
+    margin: 0;
 }
 main{
-    font-size: 18px;
-    margin: 4%;
+    max-width: 1400%;
+    margin: 0 8%;
+    padding-top: 130px;
 }
-main dt{
-    margin: 35px;
-    text-align: center;
-    padding: 1.3%;
-    border: 3px solid;
-    box-shadow: rgba(150, 150, 150, 0.341) 10px 10px 20px 10px;
-    border-radius: 10px;
-}
-
-h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 44px;
-    text-align: center;
-    padding: 3%;
-    margin: 0;
-    margin-bottom: 5%;
-    background-color: rgba(130, 203, 203, 0.285); 
-    border-radius: 0.7rem;
-}
-h1:hover{
-    background-color: rgba(8, 121, 80, 0.522);
-    transition: all 0.8s linear;
-}
-.apartados{
-    text-align: center;
-    display: inline-block;
-}
-.apartados ul{
-    list-style-type: none;
-}
-.apartados li{
-    margin: 1.5rem;
-    text-align: center;
-    background-color: rgba(208, 207, 205, 0.444);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    font-size: 22px;
-}
-li:hover{
-    background: rgba(65, 189, 230, 0.511);
-    border-radius: 0.4rem;
-    transition: all 0.5s linear;
-}
-figure{
-    overflow: auto;
-    float: left; 
-}
-#img1{
-    margin: 0;
-    height: 320px;
-    width: 500px;
-    border-radius: 5%;
-    border: 4px rgb(97, 167, 199) solid;   
-}
-.clearfloat { 
-    clear: both; 
-}
-.tabla1{
-    border-radius: 5%;
-    padding: 0.4%;
-    margin-left: auto;
-    margin-right: auto;
-}
-a{
+.barra-navagacion a{
     text-decoration: none;
-    color: black;
+    color: rgb(217, 195, 169);
 }
-aside{
-    line-height: 30px;
+a:hover{
+    text-decoration: none;
+    color: rgb(228, 247, 246);
 }
-summary{
-    font: bold 20px sans-serif;
-    color: rgb(96, 187, 161);
-    border: 3px solid;
-    border-radius: 0.5rem;
-    box-shadow: rgba(150, 150, 150, 0.341) 10px 10px 20px 10px;
-    padding: 1%;
+h1{
+    margin: 0;
+    color: rgb(140, 245, 239);
 }
-aside  dt{
-    font: bold 20px sans-serif;
-    color: rgb(96, 187, 161);
-}
-input{
-    margin: 1%;
-    background-color: rgba(127, 255, 212, 0.264);
+header{
+    width: 100%;
+    font-family: Cambria;
+    background-color: rgba(130, 203, 203, 0.989); 
+    text-align: center;
     border-radius: 0.4rem;
+    flex-direction: column;
+    position: fixed;
+}
+header:hover{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
+    transition: all 1.8s linear;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+label{
+    background-color: rgba(30, 100, 100, 0.31);
+    display: inline-block;
+    border-radius: 0.7rem;
+    width: 7em;
+    margin-left: 0.6em;
+    margin-top: 0.3em;
+}
+h3{
+    font-family: Cambria;
+    font-size: 27px;
+}
+dd{
     font-size: 20px;
 }
-dd p{
-    font: bold 20px sans-serif;
-    color: rgb(96, 187, 161);
-    border: 3px solid;
-    border-radius: 0.5rem;
-    box-shadow: rgba(150, 150, 150, 0.341) 10px 10px 20px 10px;
-    padding: 1%;
+#informacion{
+    background-color: rgb(150, 209, 255);
+    padding: 100px 20px;
 }
-.datos:hover{
-    background-color: rgba(66, 244, 185, 0.66);
-    transition: all 0.8s linear;
-    padding: 2%;
-    border-radius: 0.7rem;
+#informacion details{
+    font-size: 24px;
+    display: inline;
 }
-button{
-    background-color: rgba(138, 202, 202, 0.314);
-    border-radius: 0.3rem;
-    font-size: 25px;
-}
+#informacion ul{
+    list-style: none;
 
+}
+#opiniones{
+    background-color: rgb(43, 226, 134);
+    padding: 100px 20px;
+}
+#maquetas{
+    padding: 200px 12px;
+    background-image: url("https://cdn.andro4all.com/andro4all/2016/07/fondos-pantalla-android-2.jpg?width=800");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contacto{
+    background-color: rgb(150, 209, 255);
+    padding: 200px 12px;
+}
 #piePagina{
-    margin-top: 17%;
     padding: 3%;
     text-align: center;
     background-color: rgba(46, 201, 225, 0.141);
     border-radius: 0.7rem;
 }
+

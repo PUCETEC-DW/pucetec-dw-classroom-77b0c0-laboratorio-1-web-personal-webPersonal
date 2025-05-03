@@ -8,54 +8,54 @@
 </head>
 <body>
     <header>
-            <h1>¡Hola! Soy Armando</h1>
+        <h1>¡Hola! Soy Armando</h1>
+        <nav class="barra-navagacion">
+            <label><a href="#Informacion"><h2>Sobre Mi</h2></a></label> 
+            <label><a href="#Maquetas"><h2>Maquetas</h2></a></label> 
+            <label><a href="#Opiniones"><h2>Reseña</h2></a></label> 
+            <label><a href="#Contacto"><h2>Contactos</h2></a></label>
+        </nav>
     </header>
-    
-    <figure>
-        <img id="img1" src="https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn" alt="Desarrollo Web">
-        <figcaption>Desarrollo web</figcaption>
-    </figure>
-    <nav class="apartados">
-        <ul id="descripcion">
-            <li><a href="#Informacion">Informacion</a></li> 
-            <li><a href="#Herramientas">Herramientas</a></li> 
-            <li><a href="#Espectativas">Espectativas</a></li> 
-            <li><a href="#Contacto">Contacto</a></li>
-        </ul>
-    </nav>
-    <div class="clearfloat"></div> <!--Ayuda a separar los elementos flotantes-->
+
     <main>
-        <section class="info">
+        <section id="informacion">
             <details>
-                <summary id="Informacion" >Informacion</summary>
-                <ol type="A">
+                <summary><h3>Este Soy Yo</h3></summary>
+                <ul>
                     <li><b>Nombre:</b> Armando Estevez</li>
                     <li><b>Edad:</b> 27 años</li>
                     <li><b>Carrera:</b> Desarrollo de Software</li>
-                    <li><b>Ciudad:</b>C Quito</li>
-                </ol> 
+                    <li><b>Ciudad:</b> Quito</li>
+                </ul> 
             </details>
         </section>
-        <aside>
+        <section id="maquetas">
             <dl>
-                <dt id="Herramientas">Herramientas</dt>
+                <dt><h3>Mis trabajos</h3></dt>
                 <dd>
                     En el transcurso de la carrea he aprendido:
-                    <ul>
+                    <ol type="A">
                         <li>Python</li>
                         <li>C#</li>
                         <li>javaScript</li>
-                    </ul>
+                    </ol>
                 </dd>
-                <dt id="Espectativas">Espectativas</dt>
+            </dl>
+        </section>
+        <section id="opiniones">
+            <dl>
+                <dt><h3>Tus Opiniones</h3></dt>
                 <dd>
-                    Las espectativas en este curso es aprender lo mejor posible <br>
-                    para asi porder desempeñarme en los siguientes cursos <br>
-                    de la mejor manera.
-                    Colaborar en el aprendizaje de mi alrededor y <br>
-                    fortalecer la union.
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit'
+                        . Dolores, quia? Dicta accusamus harum, assumenda architecto
+                        quasi quia sapiente vero totam, sed soluta odio quidem. Magni 
+                        itaque quae a voluptatum nemo?</p>
                 </dd>
-                <dt id="Contacto">Contacto</dt>
+            </dl>
+        </section>
+        <section id="contacto">
+            <dl>
+                <dt><h3>Contacto</h3></dt>
                 <dd>
                     <table border="2px" class="tabla1">
                         <tr>
@@ -68,17 +68,20 @@
                         </tr>
                     </table>
                 </dd>
+                <dt><h3>Contactanos</h3></dt>
                 <dd>
-                    <p>Coneccion</p>
+                    
                     <form name="coneccion" class="datos">
                         <label>Nombre: <input type="text"></label><br>
                         <label>Github: <input type="email"></label><br>
                         <label>Telefono: <input type="number"></label><br>
                         <button type="reset">Compartir</button>
                     </form>
-                </dd>
+                </dd>     
             </dl>
-        </aside>
+        </section>
+        <br>
+        <button type="submit"><a href="#Inicio" >Subir</a></button>
     </main>
     <footer id="piePagina">
         <address>Quito, Ecuador</address>
