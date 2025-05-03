@@ -1,15 +1,16 @@
 body{
-    background-color: rgba(211, 239, 239, 0.608); 
+    background-color: rgba(204, 224, 212, 0.608); 
     margin: 0;
 }
 main{
+    font-family: Cambria;
     max-width: 1400%;
     margin: 0 8%;
     padding-top: 130px;
 }
-.barra-navagacion a{
+a{
     text-decoration: none;
-    color: rgb(217, 195, 169);
+    color: rgb(226, 186, 140);
 }
 a:hover{
     text-decoration: none;
@@ -36,7 +37,7 @@ header:hover{
     background-size: cover;
 
 }
-label{
+#barra-navegacion label{
     background-color: rgba(30, 100, 100, 0.31);
     display: inline-block;
     border-radius: 0.7rem;
@@ -44,6 +45,25 @@ label{
     margin-left: 0.6em;
     margin-top: 0.3em;
 }
+form label{
+    background-color: rgba(30, 100, 100, 0.31);
+    display: inline-block;
+    border-radius: 0.7rem;
+    width: 7em;
+    margin-left: 0.6em;
+    margin-top: 0.3em;
+}
+#sugerencia{
+    display: flex;
+    padding: 3%;
+    margin: 2px;
+    font-size: 33px;
+}
+textarea{
+    padding: 1%;
+    font-size: 33px;
+}
+
 h3{
     font-family: Cambria;
     font-size: 27px;
@@ -53,19 +73,25 @@ dd{
 }
 #informacion{
     background-color: rgb(150, 209, 255);
-    padding: 100px 20px;
+    padding: 12px;
+    display: flex;
+}
+.yo{
+    width: 270px;
+    height: 270px;
+    border-radius: 2rem;
+    margin-left: 20%;
 }
 #informacion details{
-    font-size: 24px;
+    font-size: 34px;
     display: inline;
 }
 #informacion ul{
     list-style: none;
-
 }
 #opiniones{
-    background-color: rgb(43, 226, 134);
-    padding: 100px 20px;
+    background-color: rgba(43, 226, 134, 0.225);
+    padding: 30px 20px;
 }
 #maquetas{
     padding: 200px 12px;
@@ -75,7 +101,51 @@ dd{
 }
 #contacto{
     background-color: rgb(150, 209, 255);
-    padding: 200px 12px;
+    justify-content:  center;
+    display: flex;
+    overflow: scroll;
+
+}
+#redes{
+    background-color: rgba(164, 164, 245, 0.497);
+    width: 50%;
+    padding: 30px;
+}
+#formulario{
+    background-color: aquamarine;
+    width: 50%;
+    padding: 30px;
+}
+#redes:hover{
+    color: #a3cccb;
+    padding: 30px;
+    width: 50%;
+    background-image:linear-gradient(
+        0deg, rgba(0,0,0,0.2),rgba(0,0,0,0.2)
+    )   ,url("https://blog.grupocajamar.com/wp-content/uploads/2017/07/GettyImages-471756031.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: all 1.4s linear;
+    background-repeat: no-repeat;
+}
+
+#formulario:hover{
+    color: #59c5c2;
+    padding: 30px;
+    width: 50%;
+    background-image:linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    )   ,url("https://consejotecnologico.com/wp-content/uploads/2019/03/istock-658846350.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: all 1.4s linear;
+    background-repeat: no-repeat;
+
+}
+button{
+    background-color: #59c5c2;
+    border-radius: 0.2rem;
+    font-size: 33px;
 }
 #piePagina{
     padding: 3%;

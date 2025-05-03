@@ -9,11 +9,11 @@
 <body>
     <header>
         <h1>¡Hola! Soy Armando</h1>
-        <nav class="barra-navagacion">
-            <label><a href="#Informacion"><h2>Sobre Mi</h2></a></label> 
-            <label><a href="#Maquetas"><h2>Maquetas</h2></a></label> 
-            <label><a href="#Opiniones"><h2>Reseña</h2></a></label> 
-            <label><a href="#Contacto"><h2>Contactos</h2></a></label>
+        <nav id="barra-navegacion">
+            <label><a href="#informacion"><h2>Sobre Mi</h2></a></label> 
+            <label><a href="#maquetas"><h2>Maquetas</h2></a></label> 
+            <label><a href="#opiniones"><h2>Reseña</h2></a></label> 
+            <label><a href="#contacto"><h2>Contactos</h2></a></label>
         </nav>
     </header>
 
@@ -28,6 +28,7 @@
                     <li><b>Ciudad:</b> Quito</li>
                 </ul> 
             </details>
+            <img class="yo" src="https://tse1.mm.bing.net/th?id=OIG2.29.2S3lM8jknQfnhnfVa&pid=ImgGn" alt="Yo">
         </section>
         <section id="maquetas">
             <dl>
@@ -48,14 +49,19 @@
                 <dd>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit'
                         . Dolores, quia? Dicta accusamus harum, assumenda architecto
-                        quasi quia sapiente vero totam, sed soluta odio quidem. Magni 
-                        itaque quae a voluptatum nemo?</p>
+                        quasi quia sapiente vero totam</p>
                 </dd>
+                <dt>
+                    <label id="sugerencia">
+                        Ingresa tus sugerencias u opiniones:
+                        <textarea name="opinion" id="opinion" cols="30" rows="3"></textarea>
+                    </label>
+                </dt>
             </dl>
         </section>
         <section id="contacto">
-            <dl>
-                <dt><h3>Contacto</h3></dt>
+            <dl id="redes">
+                <dt ><h3>Contacto</h3></dt>
                 <dd>
                     <table border="2px" class="tabla1">
                         <tr>
@@ -68,9 +74,10 @@
                         </tr>
                     </table>
                 </dd>
-                <dt><h3>Contactanos</h3></dt>
+            </dl>
+            <dl id="formulario">
+                <dt ><h3>Contáctanos</h3></dt>
                 <dd>
-                    
                     <form name="coneccion" class="datos">
                         <label>Nombre: <input type="text"></label><br>
                         <label>Github: <input type="email"></label><br>
@@ -81,7 +88,7 @@
             </dl>
         </section>
         <br>
-        <button type="submit"><a href="#Inicio" >Subir</a></button>
+        <button type="submit"><a href="#informacion">Subir</a></button>
     </main>
     <footer id="piePagina">
         <address>Quito, Ecuador</address>
