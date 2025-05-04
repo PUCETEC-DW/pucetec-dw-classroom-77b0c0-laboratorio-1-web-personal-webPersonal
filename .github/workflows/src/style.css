@@ -186,7 +186,7 @@ button {
     background-color: rgba(30, 100, 100, 0.31);
     border-radius: 0.7rem;
 }
-@media (max-width: 720px) { 
+@media (max-width: 768px) { 
     header { 
         background-color: rgb(82, 165, 206);
         position: fixed; 
@@ -200,7 +200,6 @@ button {
     }
     #informacion{
         margin-top: 21%;
-        display: inline-block;
     }
     .opinionSugerencia{
         background-color: rgba(30, 100, 100, 0.31);
