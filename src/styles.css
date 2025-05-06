@@ -12,7 +12,7 @@ header h1 {
     color: #d6c2c2;
 }
 
-main section > h2 {
+main section > h2,h3 {
     color: #1976d9;
     margin-top: 20px;
 }
