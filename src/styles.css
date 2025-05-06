@@ -12,9 +12,13 @@ header h1 {
     color: #d6c2c2;
 }
 
-main section > h2,h3 {
+main section > h2 {
     color: #1976d9;
     margin-top: 20px;
+}
+h3 {
+    color: #1976d9;
+    margin-top: 10px;
 }
 
 ul li:hover {
