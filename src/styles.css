@@ -168,7 +168,7 @@ h3 {
 }
 
 .intro-text {
-  font-family: "Outfit", sans-serif;
+  font-family: Outfit, sans-serif;
   font-optical-sizing: auto;
   font-size: 36px;
   font-weight: 400;
@@ -185,8 +185,9 @@ h3 {
 ul {
   list-style-position: inside;
 }
+
 li {
-  font-family: "Outfit", sans-serif;
+  font-family: Outfit, sans-serif;
   font-optical-sizing: auto;
   font-size: 25px;
   font-weight: 400;
