@@ -5,66 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Who Am I</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Outfit:wght@100..900&family=Rubik+Mono+One&family=VT323&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <h2>Martin Moreira</h2>
-      <nav>
-        <a href="index-es.html">ES</a>
-      </nav>
+      <a href="index-es.html">ES</a>
     </header>
     <div class="main-grid">
       <div class="grid-item intro-box">
         <article>
           <h1>Hi, I'm Martin</h1>
-          <p>
-            I'm a software developer with a love for design, architecture, art,
-            photography, and literature.
+          <p class="intro-text">
+            I'm a student of software development with a love for design,
+            architecture, art, photography, and literature.
           </p>
         </article>
       </div>
       <div class="grid-item skills-box">
         <section>
-          <h3>Technologies</h3>
+          <h3 class="learning-header">Learning Goals</h3>
+          <ul>
+            <li>Rust</li>
+            <li>TailwindCSS</li>
+          </ul>
+        </section>
+      </div>
+      <div class="grid-item image-box">
+        <img class="grid-image" src="./img/img1.jpg" alt="Disturbed Spirit - Art by GodivaGhoul" />
+      </div>
+      <div class="grid-item learning-box">
+        <section>
+          <h3 class="skills-header">Technologies</h3>
           <ul>
             <li>Python</li>
             <li>SQL</li>
             <li>HTML/CSS/JS</li>
           </ul>
-          <h3>Frameworks</h3>
+        </section>
+        <section>
+          <h3 class="skills-header">Frameworks</h3>
           <ul>
             <li>Django</li>
             <li>AstroJS</li>
           </ul>
         </section>
       </div>
-      <div class="grid-item image-box">
-        <img class="grid-image" src="./img/img1.jpg" alt=""/>
-      </div>
-      <div class="grid-item learning-box">
-        <section>
-            <h3>Learning Goals</h3>
-            <ul>
-                <li>Rust</li>
-                <li>TailwindCSS</li>
-            </ul>
-        </section>
-      </div>
       <div class="grid-item reading-box">
         <section>
-          <h3>Reading List</h3>
+          <h3 class="reading-header">Reading List</h3>
           <ul>
             <li>Romance of the Three Kingdoms</li>
             <li>Legend of the Galactic Heroes</li>
             <li>Sir Gawain and the Green Knight</li>
           </ul>
         </section>
-      </div> 
+      </div>
+      <img src="./img/lain.png" alt="Iwakura Lain" class="lain">
     </div>
     <footer>
       <a href="https://github.com/mimoreirac">Github</a>
-      <a href="">Art by GodivaGhoul</a>
-      <a href="">Let's all love Lain.</a>
+      <a
+        href="https://bsky.app/profile/godivaghoul.bsky.social/post/3kz5jiyyzkk2t"
+        >Art by GodivaGhoul</a
+      >
+      <a href="https://fauux.neocities.org/lovelain">Let's all love Lain.</a>
     </footer>
   </body>
 </html>
