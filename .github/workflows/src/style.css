@@ -1,0 +1,31 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Selectores combinados */
+header h1 {
+    text-align: center;
+    color: #d6c2c2;
+}
+
+main section > h2 {
+    color: #1976d9;
+    margin-top: 20px;
+}
+
+ul li:hover {
+    color: #33ff77;
+    cursor: pointer;
+}
+
+/* Otros estilos */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b02121;
+    margin-top: 20px;
+}
