@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Pagina Armando E</title>
+</head>
+<body>
+    <header>
+            <h1>¡Hola! Soy Armando</h1>
+            <nav id="barra-navegacion">
+                <label><a href="#informacion"><h2>Sobre Mi</h2></a></label> 
+                <label><a href="#maquetas"><h2>Maquetas</h2></a></label> 
+                <label><a href="#opiniones"><h2>Reseña</h2></a></label> 
+                <label><a href="#contacto"><h2>Contactos</h2></a></label>
+            </nav>
+    </header>
+    <main>
+        <section id="informacion">
+            <details>
+                <summary><h3>Este Soy Yo</h3></summary>
+                <ul>
+                    <li><b>Nombre:</b> Armando Estevez</li>
+                    <li><b>Edad:</b> 27 años</li>
+                    <li><b>Carrera:</b> Desarrollo de Software</li>
+                    <li><b>Ciudad:</b> Quito</li>
+                </ul> 
+            </details>
+            <img class="img2" src="https://tse1.mm.bing.net/th?id=OIG2.29.2S3lM8jknQfnhnfVa&pid=ImgGn" alt="Yo">
+        </section>
+        <section id="maquetas">
+            <dl>        <!--sirve para titulos y detalles-->
+                <dt><h3>Proyectos en</h3></dt>
+                <dd>
+                    En el transcurso de la carrea he aprendido:
+                    <ol type="A">
+                        <li>Python:
+                            <div class="python">
+                                <p><b>En el semestre 2 aprendi sobre la programacion orientada a objetos, esta es mi maqueta de principiante.</b></p>
+                            </div>
+                        </li>
+                        <li>C#
+                            <div class="csharp">
+                                <p>En el semestre 2 aprendi hacer una calculadora funcional.</p>
+                            </div>
+                        </li>
+                        <li>javaScript
+                            <div class="javaScript">
+                                <p>En el semestre 2 aprendi a implemetarlo junto con python, funciones de botones y mas interactividad.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </dd>
+            </dl>
+        </section>
+        <section id="opiniones">
+            <dl>
+                <dt><h3>Tus Opiniones</h3></dt>
+                <dd>
+                    <p>Sientete libre de dar tu opinión, sugerencias y más. <br>
+                        Puedes aportar con ideas, soluciones o indicar <br> 
+                        inconvenientes que presentó  la página web.
+                    </p>
+                </dd>
+                <dt>
+                    <form  name="coneccion" class="opinionSugerencia">
+                        <label id="sugerencia">
+                            Ingresa tus sugerencias u opiniones:
+                            <textarea name="opinion" id="opinion" cols="30" rows="3"></textarea>
+                        </label>
+                        <button type="reset">Enviar</button>
+                    </form>
+                </dt>
+            </dl>
+        </section>
+        <section id="contacto">
+            <dl id="redes">
+                <dt ><h3>Redes</h3></dt>
+                <dd>
+                    <table border="2px" class="tabla1">
+                        <tr>
+                            <th colspan="1">Github</th>
+                            <th colspan="1">Correo</th>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/Arm4nd7"><img src="https://github.githubassets.com/favicons/favicon.png" alt="Logo de Github"></a></td>
+                            <td><a href="mailto:axestevez@puce.edu.ec"><img src="https://pucetec.puce.edu.ec/2025/theme/image.php/puce/theme/1745942849/favicon" alt="Logo PUCE"></a></td>
+                        </tr>
+                    </table>
+                </dd>
+            </dl>
+            <dl id="formulario">
+                <dt ><h3>Contáctanos</h3></dt>
+                <dd>
+                    <form name="coneccion" class="datos">
+                        <label>Nombre: <input type="text"></label><br>
+                        <label>Github: <input type="email"></label><br>
+                        <label>Telefono: <input type="number"></label><br>
+                        <button type="reset">Compartir</button>
+                    </form>
+                </dd>     
+            </dl>
+        </section>
+        <br>
+        <button type="submit"><a href="#informacion">Subir</a></button>
+    </main>
+    <footer id="piePagina">
+        <address>Quito, Ecuador</address>
+        <small>
+            <!--Entidades(cadena de caracter especial)-->
+            &copy; Desarrollado by Armando Estevez 2025
+        </small>
+    </footer>
+</body>
+</html>
