@@ -1,0 +1,66 @@
+body{
+  background-image: url("https://marketplace.canva.com/EAFzjQNVu8k/2/0/1600w/canva-fondo-pantalla-paisaje-playa-doodles-naranja-rWmsjbynAxU.jpg");
+  background-size: cover;
+}
+
+header{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px rgb(3, 2, 2);
+}
+
+header>h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style:oblique;
+  font-size: 60px;
+  
+}
+
+header>span{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  transition: font-size 0.3s ease-out;
+}
+
+@keyframes cambiarFuente {
+  0%  { font-family: "Cormorant Garamond", serif; }
+  25% { font-family: 'Arial', sans-serif; }
+  50%  { font-family: "Cormorant Garamond", serif; }
+  75% { font-family: 'Arial', sans-serif; }
+  100% { font-family: "Cormorant Garamond", serif; }
+}
+
+#complemento_de_h1{
+  animation: cambiarFuente 15s infinite;
+}
+
+.imagen_personal{
+  width: 50%;               /* Hace que la imagen ocupe el 100% del contenedor */
+  height: auto;              /* Mantiene la relación de aspecto */
+  border-radius: 400px;        /* Bordes redondeados */
+  box-shadow: 4px 4px 10px rgba(15, 39, 255, 0.3); /* Sombra suave */
+  display: block;            /* Hace que la imagen sea un bloque (eliminando el espacio debajo) */
+  margin: 40px auto;    
+}
+
+.nombre{
+  font-size: 16px;
+  align-items: center;
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b); /* Degradado suave */
+  height: 100vh;
+  padding: 10px;
+}
+
+
+footer{
+  text-align: center;
+  background-color: #333; /* Fondo oscuro */
+  color: white;           /* Texto blanco */
+  text-align: center;     /* Centrado del texto */
+  padding: 10px 0;        /* Espaciado superior e inferior */
+  font-size: 14px;        /* Tamaño de fuente pequeño */
+  margin: 30px 0;  /* Márgenes pequeños para cada párrafo */
+}
