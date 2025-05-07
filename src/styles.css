@@ -25,6 +25,17 @@ header:hover {
     padding-top: 20rem;
 }
 
+h2{
+    font-size: 2.2rem;
+    color: #7630d3;
+    text-shadow: #eeecf1 2px 3px 7px;
+    margin: 2%;
+}
+
+h1, h2, details{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .barra-navegacion label a h2{
     display: inline-block;
     padding: 0.2%;
@@ -35,6 +46,7 @@ header:hover {
     padding: 0.75rem;
     display: flex;
 }
+
 details{
     cursor: pointer;
 }
@@ -161,25 +173,12 @@ h1{
     text-shadow: #753ee2 2px 3px 5px;
 }
 
-h2{
-    font-size: 2.2rem;
-    color: #7630d3;
-    text-shadow: #eeecf1 2px 3px 7px;
-    margin: 2%;
-}
-
 ol {
     display: flex;
 }
 
 a{
     text-decoration: none;
-}
-
-
-
-h1, h2, details{
-    font-family: 'Times New Roman', Times, serif;
 }
 
 li, p, label{
@@ -204,7 +203,7 @@ button {
     header {
         background-color: #eac5cd;
         position: fixed;
-        width: 100%;
+        max-width: 100%;
     }
 
     header #barra-navegacion {
