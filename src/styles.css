@@ -11,17 +11,6 @@ header, h2 {
     margin: 20px;
 }
 
-header:hover, h2:hover {
-    background-image: linear-gradient(
-        to top, #0e0d0fcc, #00000051
-    ), url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
-    transition: all 1.8s linear;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-}
-
 h2{
     font-size: 3rem;
     color: white;
@@ -33,7 +22,18 @@ h1, h2, details{
     font-family: 'Times New Roman', Times, serif;
 }
 
-#barra-navegacion label a h2{
+header:hover, h2:hover {
+    background-image: linear-gradient(
+        to top, #0e0d0fcc, #00000051
+    ), url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
+    transition: all 1.8s linear;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.barra-navegacion label a h2{
     display: inline-block;
     padding: 0.2%;
 }
