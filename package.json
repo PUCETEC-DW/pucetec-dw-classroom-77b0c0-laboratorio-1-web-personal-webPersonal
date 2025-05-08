@@ -1,5 +1,5 @@
 {
-  "homepage": "",
+  "homepage": "https://arm4nd7.github.io/laboratorio-1-web-personal-Arm4nd7/",
   "scripts": {
     "deploy": "gh-pages -d src"
   },
