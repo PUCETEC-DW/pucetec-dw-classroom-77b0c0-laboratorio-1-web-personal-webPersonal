@@ -19,6 +19,7 @@ header:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .container{
@@ -172,6 +173,7 @@ h1{
     font-size: 5rem;
     color: #b89bea;
     text-shadow: #050407 2px 3px 5px;
+    margin: 0;
 }
 
 ol {
@@ -215,26 +217,18 @@ button {
 
     #informacion {
         margin-top: 21%;
+        cursor: pointer;
     }
 
     .opinion-sugerencia {  
         background-color: #f6e8eb; 
-        border-radius: 0.7rem;
     }
 
     #contacto {
         overflow: scroll;
     }
 
-    textarea {
-        font-size: 0.75rem;
-    }
-
     ol {
         display: inline-block;
-    }
-
-    dd {
-        display: inline;
     }
 }
