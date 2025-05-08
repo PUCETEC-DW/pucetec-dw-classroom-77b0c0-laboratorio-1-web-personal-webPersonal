@@ -13,7 +13,7 @@ header {
 
 header:hover {
     background-image: linear-gradient(
-        to top, #bda5ed92, #40298751
+        to top, #0e0d0fcc, #00000051
     ), url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
     transition: all 1.8s linear;
     background-position: center center;
@@ -170,7 +170,7 @@ details{
 h1{
     font-size: 5rem;
     color: #b89bea;
-    text-shadow: #753ee2 2px 3px 5px;
+    text-shadow: #050407 2px 3px 5px;
 }
 
 ol {
@@ -208,7 +208,6 @@ button {
 
     header #barra-navegacion {
         background-color: #eac5cd;
-        flex-direction: row;
         padding-bottom: 0;
         padding-right: 1.25rem;
     }
@@ -227,7 +226,6 @@ button {
     }
 
     textarea {
-        flex-wrap: wrap;
         font-size: 0.75rem;
     }
 
