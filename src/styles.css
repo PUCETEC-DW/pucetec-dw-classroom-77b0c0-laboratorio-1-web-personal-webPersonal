@@ -1,19 +1,17 @@
 body {
     margin: 0;
     background-color: #826ea7;
-
 }
 
-header {
+header, h2 {
     background-color: #ebdfbe;
-    width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     border-radius: 0.4rem;
-    position: fixed;
+    margin: 20px;
 }
 
-header:hover {
+header:hover, h2:hover {
     background-image: linear-gradient(
         to top, #0e0d0fcc, #00000051
     ), url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
@@ -22,10 +20,6 @@ header:hover {
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
-}
-
-.container{
-    padding-top: 15rem;
 }
 
 h2{
@@ -39,7 +33,7 @@ h1, h2, details{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.barra-navegacion label a h2{
+#barra-navegacion label a h2{
     display: inline-block;
     padding: 0.2%;
 }
@@ -73,21 +67,24 @@ details{
 }
 
 .python, .csharp, .java-script{
-    padding: 1.25rem 0.8125rem;
+    background-color: #ebdfbe;
+    padding: 1.2rem 0.8rem;
     border-radius: 0.3rem;
     margin: 4%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    color: #ebdfbe;
     text-shadow: #0d0911 2px 4px 5px;
 }
 
-.python {
+.python:hover {
     background-image: linear-gradient(
             to top, #260567ad, #4029875d
         ),
         url("https://th.bing.com/th/id/OIP.jBcZ1zGElDbJtzTX1l6VWAHaFP?cb=iwc1&rs=1&pid=ImgDetMain");
+    transition: all 1.8s linear;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    
 }
 
 .csharp {
@@ -169,11 +166,10 @@ details{
     text-align: center;
     margin-top: auto;
     background-color: #ebdfbe;
-
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 6rem;
     color: #b89bea;
     text-shadow: #050407 2px 3px 5px;
     margin: 0;
@@ -192,7 +188,6 @@ li, p, label{
     font-size: 2rem;
     color: white;;
     text-shadow: #0a0a0a 2px 3px 5px;
-
 }
 
 button {
@@ -206,18 +201,12 @@ button {
 }
 
 @media (width < 768px) {
-    header {
-        background-color: #eac5cd;
-        position: fixed;
-        max-width: 100%;
-    }
-
     h1{
-        font-size: 35px;
+        font-size: 5rem;
         text-shadow: #040306 2px 2px 1.5px;
     }
 
-    h2{
+    h2, .pie-pagina{
         font-size: 30px;
     }
 
@@ -225,18 +214,7 @@ button {
         font-size: 25px;
     }
 
-    .container{
-        padding-top: 5rem;
-    }
-
-    header #barra-navegacion {
-        background-color: #eac5cd;
-        padding-bottom: 0;
-        padding-right: 1.25rem;
-    }
-
     #informacion {
-        margin-top: 21%;
         cursor: pointer;
     }
 
