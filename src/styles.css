@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: #d8c898;
+    background-color: #ebdfbe;
     width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -23,12 +23,12 @@ header:hover {
 }
 
 .container{
-    padding-top: 20rem;
+    padding-top: 16rem;
 }
 
 h2{
     font-size: 3rem;
-    color: #b89bea;
+    color: white;
     text-shadow: #050407 1px 3px 2px;
     margin: 2%;
 }
@@ -77,27 +77,27 @@ details{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    color: #fff3cf;
-    text-shadow: #420c7a 3px 3px 5px;
+    color: #ebdfbe;
+    text-shadow: #0d0911 2px 4px 5px;
 }
 
 .python {
     background-image: linear-gradient(
-            to top, #9e75ef93, #40298703
+            to top, #260567ad, #4029875d
         ),
         url("https://th.bing.com/th/id/OIP.jBcZ1zGElDbJtzTX1l6VWAHaFP?cb=iwc1&rs=1&pid=ImgDetMain");
 }
 
 .csharp {
     background-image: linear-gradient(
-            to top,#9e75ef93, #40298703
+            to top, #260567ad,#4029875d
         ),
         url("https://store-images.s-microsoft.com/image/apps.6182.13979687581806399.1baa13f8-75c6-40c4-9957-dbae810e256c.738d1127-4fac-4850-b8bb-5cf701140088");
 }
 
 .java-script {  
     background-image: linear-gradient(
-            to top, #9e75ef93, #40298703
+            to top, #260567ad, #4029875d
         ),
         url("https://play-lh.googleusercontent.com/SDRKeYeVIRzA5TW4W7w3JX4kykKdG5Be12Dba5xWVABB2FCZXB4iGK5pskq9tvNVMg");
 }
@@ -121,23 +121,24 @@ details{
     background-color:  #b6a4d7; 
     justify-content: center;
     display: flex;
+    
 }
 
-#redes {
+.redes {
     background-color: #6f48ad;
-    width: 50%;
+    margin: 0;
 }
 
-#formulario {
+.formulario {
     background-color: #6f48ad; 
-    width: 50%;
+    margin: 0;
 }
 
-#redes:hover {
+.redes:hover {
     padding: 1.875rem;
     width: 50%;
     background-image: linear-gradient(
-            to top, #6f48ad60, #ede9f533 
+            to top,  #57378b9c, #937ac6a5  
         ),
         url("https://blog.grupocajamar.com/wp-content/uploads/2017/07/GettyImages-471756031.jpg");
     background-size: cover;
@@ -146,11 +147,11 @@ details{
     background-repeat: no-repeat;
 }
 
-#formulario:hover {
+.formulario:hover {
     padding: 1.875rem;
     width: 50%;
     background-image: linear-gradient(
-            to top, #6f48ad60, #ede9f533 
+            to top, #57378b9c, #937ac6a5 
         ),
         url("https://consejotecnologico.com/wp-content/uploads/2019/03/istock-658846350.jpg");
     background-size: cover;
@@ -165,12 +166,12 @@ details{
     text-shadow: #050407 1px 3px 2px;
     text-align: center;
     margin-top: auto;
-    background-color: #d8c898;
+    background-color: #ebdfbe;
 
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
     color: #b89bea;
     text-shadow: #050407 2px 3px 5px;
     margin: 0;
@@ -187,8 +188,8 @@ a{
 li, p, label{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
-    color: #fff3cf;
-    text-shadow: #753ee2 1px 2px 1px;
+    color: white;;
+    text-shadow: #0a0a0a 2px 3px 5px;
 
 }
 
@@ -209,6 +210,14 @@ button {
         max-width: 100%;
     }
 
+    h1, h2{
+        font-size: 35px;
+    }
+
+    .container{
+        padding-top: 5rem;
+    }
+
     header #barra-navegacion {
         background-color: #eac5cd;
         padding-bottom: 0;
@@ -226,6 +235,7 @@ button {
 
     #contacto {
         overflow: scroll;
+
     }
 
     ol {
