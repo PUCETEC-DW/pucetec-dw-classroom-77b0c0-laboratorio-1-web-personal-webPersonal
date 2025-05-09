@@ -18,6 +18,10 @@ h2{
     margin: 2%;
 }
 
+h2:active{
+    color: #a689eb;
+}
+
 h1, h2, details{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -55,21 +59,22 @@ details{
     margin-left: 20%;
 }
 
-#maquetas {
+#maquetas:hover{
     background-image: linear-gradient(
             to top, #bda5eddb, #4029875c 
         ),
         url("https://cdn.andro4all.com/andro4all/2016/07/fondos-pantalla-android-2.jpg?width=800");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    align-items: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        align-items: center;
+        transition: all 1.8s linear;
 }
 
 .python, .csharp, .java-script{
     background-color: #ebdfbe;
-    padding: 1.2rem 0.8rem;
-    border-radius: 0.3rem;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
     margin: 4%;
     text-shadow: #0d0911 2px 4px 5px;
 }
@@ -84,25 +89,30 @@ details{
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
-    
 }
 
-.csharp {
+.csharp:hover {
     background-image: linear-gradient(
             to top, #260567ad,#4029875d
         ),
         url("https://store-images.s-microsoft.com/image/apps.6182.13979687581806399.1baa13f8-75c6-40c4-9957-dbae810e256c.738d1127-4fac-4850-b8bb-5cf701140088");
+        transition: all 1.8s linear;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
 }
 
-.java-script {  
+.java-script:hover {  
     background-image: linear-gradient(
             to top, #260567ad, #4029875d
         ),
         url("https://play-lh.googleusercontent.com/SDRKeYeVIRzA5TW4W7w3JX4kykKdG5Be12Dba5xWVABB2FCZXB4iGK5pskq9tvNVMg");
-}
-
-#opiniones{
-    background-color: #826ea7;
+        transition: all 1.8s linear;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
 }
 
 .opinion-sugerencia{
@@ -116,26 +126,30 @@ details{
     background-color: #fff3cf;
 }
 
-#contacto {
-    background-color:  #b6a4d7; 
-    justify-content: center;
+#contacto{
     display: flex;
-    
 }
 
-.redes {
+div{
+    text-align: center;
+}
+
+.redes, .formulario {
     background-color: #6f48ad;
-    margin: 0;
+    border-radius: 0.6rem;
+    width: 50%;
+    margin: 2%;
 }
 
-.formulario {
-    background-color: #6f48ad; 
-    margin: 0;
+.formulario  input{
+    background-color: #fff3cf;
+    border-radius: 0.4rem;
+    text-align: center;
 }
+
 
 .redes:hover {
-    padding: 1.875rem;
-    width: 50%;
+    padding: 1.8rem;
     background-image: linear-gradient(
             to top,  #57378b9c, #937ac6a5  
         ),
@@ -147,20 +161,29 @@ details{
 }
 
 .formulario:hover {
-    padding: 1.875rem;
-    width: 50%;
+    padding: 1.8rem;
     background-image: linear-gradient(
             to top, #57378b9c, #937ac6a5 
         ),
-        url("https://consejotecnologico.com/wp-content/uploads/2019/03/istock-658846350.jpg");
+        url("https://www.agenceici.com/assets/uploads/images/news/max/601523302836.jpg");
     background-size: cover;
     background-position: center center;
     transition: all 1.4s linear;
     background-repeat: no-repeat;
 }
 
+table{
+    background-color:  #b89bea;
+    font-size: 33px;
+    border-radius: 1rem;
+    border: #f6e8eb; 
+    border-spacing: 0; 
+    overflow: hidden;
+    display: inline-block;
+}
+
 .pie-pagina{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #b89bea;
     text-shadow: #050407 1px 3px 2px;
     text-align: center;
@@ -175,7 +198,7 @@ h1{
     margin: 0;
 }
 
-ol {
+ol{
     display: flex;
 }
 
@@ -186,18 +209,23 @@ a{
 li, p, label{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
-    color: white;;
+    color: white;
     text-shadow: #0a0a0a 2px 3px 5px;
 }
 
-button {
+button,th {
+    color: white;
     background-color: #c68ece;
     border-radius: 0.4rem;
     font-size: 1.8rem;
     padding: 0.6rem 1rem;
-    box-shadow: #420c7a 3px 2px 7px;
+    box-shadow: #420c7a 1px 1px 6px;
     margin: 2%;
     cursor: pointer;
+}
+
+button > a {
+    color: white;
 }
 
 @media (width < 768px) {
