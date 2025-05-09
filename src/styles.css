@@ -1,36 +1,38 @@
-/* Estilo general */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+html{
+    background-color: antiquewhite;
 }
 
-/* Selectores combinados */
-header h1 {
-  text-align: center;
-  color: #1a13a5;
+p{
+    color: red;
 }
 
-main section > h2 {
-  color: #1976d9;
-  margin-top: 20px;
+main div p{
+    color: blue;
 }
 
-h3 {
-  color: #1976d9;
-  margin-top: 10px;
+div .clase1{
+    color: orange;
 }
 
-ul li:hover {
-  color: #3f7;
-  cursor: pointer;
+body > p{
+    color: rgb(#8DE6E6);
 }
 
-/* Otros estilos */
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #cb9595;
-  margin-top: 20px;
+div + p{
+    color: green;
+}
+
+p:hover{
+    color: red;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+p:not(.clase1){
+    color:yellow
+}
+
+h1{
+    color: skyblue;
 }
