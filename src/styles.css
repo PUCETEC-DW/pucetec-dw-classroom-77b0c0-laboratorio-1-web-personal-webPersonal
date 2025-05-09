@@ -18,12 +18,12 @@ h2{
     margin: 2%;
 }
 
-h2:active{
-    color: #a689eb;
-}
-
 h1, h2, details{
     font-family: 'Times New Roman', Times, serif;
+}
+
+h2:active{
+    color: #a689eb;
 }
 
 header:hover, h2:hover {
