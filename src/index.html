@@ -16,10 +16,10 @@
             <label><a href="#contacto"><h2>Contacto</h2></a></label>
         </nav>
     </header>
-    
     <main class="container">
         <section id="informacion">
-            <details>
+            <div class="info">
+                <details>
                     <summary><h2>Este Soy Yo</h2></summary>
                     <ul>
                         <li><b>Nombre:</b> Armando Estevez</li>
@@ -27,52 +27,37 @@
                         <li><b>Carrera:</b> Desarrollo de Software</li>
                         <li><b>Ciudad:</b> Quito</li>
                     </ul> 
-            </details>
-            <img class="img2" src="https://tse1.mm.bing.net/th?id=OIG2.29.2S3lM8jknQfnhnfVa&pid=ImgGn" alt="img2">
+                </details>
+            </div>
+            <diva class="imagen">
+                <img class="img2" src="https://tse1.mm.bing.net/th?id=OIG2.29.2S3lM8jknQfnhnfVa&pid=ImgGn" alt="img2">
+            </diva>
         </section>
         <section id="maquetas">
-            <dl>        <!--sirve para titulos y detalles-->
-                <dt><h2>Proyectos</h2></dt>
-                <dd>
-                    <p>En el transcurso de la carrea he aprendido:</p>
-                    <ol type="A">
-                        <li>Python:
-                            <div class="python">
-                                <p>En el semestre 2 aprendi sobre la programacion orientada a objetos, esta es mi maqueta de principiante, gracias.</p>
-                            </div>
-                        </li>
-                        <li>C#
-                            <div class="csharp">
-                                <p>En el semestre 2 aprendi hacer una calculadora funcional.</p>
-                            </div>
-                        </li>
-                        <li>javaScript
-                            <div class="java-script">
-                                <p>En el semestre 2 aprendi a implemetarlo junto con python, funciones de botones y mas interactividad.</p>
-                            </div>
-                        </li>
-                    </ol>
-                </dd>
-            </dl>
-        </section>
-        <section id="opiniones">
-            <h2>Tus Opiniones</h2>
             <div>
-                <p>Sientete libre de dar tu opinión, sugerencias y más. <br>
-                    Puedes aportar con ideas, soluciones o indicar <br> 
-                    inconvenientes que presentó  la página web.
-                </p>
-            </div>
-            <div>
-                <form  name="coneccion" class="opinion-sugerencia">
-                    <label id="sugerencia">
-                        <p>Ingresa tus sugerencias u opiniones:</p>
-                        <textarea name="opinion" id="opinion" cols="5" rows="3"></textarea>
-                    </label>
-                    <br>
-                    <button type="reset">Enviar</button>
-                </form>
-
+                <dl>        <!--sirve para titulos y detalles-->
+                    <dt><h2>Proyectos</h2></dt>
+                    <dd>
+                        <p>En el transcurso de la carrea he aprendido:</p>
+                        <ol type="A">
+                            <li>Python:
+                                <div class="python">
+                                    <p>En el semestre 2 aprendi sobre la programacion orientada a objetos, esta es mi maqueta de principiante, gracias.</p>
+                                </div>
+                            </li>
+                            <li>C#
+                                <div class="csharp">
+                                    <p>En el semestre 2 aprendi hacer una calculadora funcional.</p>
+                                </div>
+                            </li>
+                            <li>javaScript
+                                <div class="java-script">
+                                    <p>En el semestre 2 aprendi a implemetarlo junto con python, funciones de botones y mas interactividad.</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </dd>
+                </dl>
             </div>
         </section>
         <section id="contacto">
@@ -97,6 +82,25 @@
                     <label>Telefono: <input type="number"></label><br>
                     <button type="reset">Compartir</button>
                 </form>  
+            </div>
+        </section>
+        <section id="opiniones">
+            <h2>Tus Opiniones</h2>
+            <div>
+                <p class="parrafo">Sientete libre de dar tu opinión, sugerencias y más. <br>
+                    Puedes aportar con ideas, soluciones o indicar <br> 
+                    inconvenientes que presentó  la página web.
+                </p>
+            </div>
+            <div class="texto-opinion">
+                <form  name="coneccion" class="opinion-sugerencia">
+                    <label id="sugerencia">
+                        <p>Ingresa tus sugerencias u opiniones:</p>
+                        <textarea name="opinion" id="opinion" cols="5" rows="3"></textarea>
+                    </label>
+                    <br>
+                    <button type="reset">Enviar</button>
+                </form>
             </div>
         </section>
         <br>

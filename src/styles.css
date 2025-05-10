@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #826ea7;
+    background-color: #826ea7d7;
 }
 
 header, h2 {
@@ -46,17 +46,32 @@ header:hover, h2:hover {
     background-color: #826ea7;
     padding: 0.75rem;
     display: flex;
+    height: 35rem;
+    justify-content: center;
+}
+
+#informacion .info{
+    align-content: center;
+}
+
+#informacion .imagen{
+    align-content: center;
 }
 
 details{
+    text-align: left;
     cursor: pointer;
 }
 
 .img2 {
-    width: 40%;
-    height: 40%;
+    width: 70%;
+    height: 70%;
     border-radius: 0.7rem;
     margin-left: 20%;
+}
+
+#maquetas{
+    height: 45rem;
 }
 
 #maquetas:hover{
@@ -64,11 +79,10 @@ details{
             to top, #bda5eddb, #4029875c 
         ),
         url("https://cdn.andro4all.com/andro4all/2016/07/fondos-pantalla-android-2.jpg?width=800");
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        align-items: center;
-        transition: all 1.8s linear;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 4s ease-in-out;
 }
 
 .python, .csharp, .java-script{
@@ -83,7 +97,7 @@ details{
     background-image: linear-gradient(
             to top, #260567ad, #4029875d
         ),
-        url("https://th.bing.com/th/id/OIP.jBcZ1zGElDbJtzTX1l6VWAHaFP?cb=iwc1&rs=1&pid=ImgDetMain");
+        url("https://bing.com/th/id/BCO.323977bd-62e5-476e-962d-b7c5d74f4829.png");
     transition: all 1.8s linear;
     background-position: center center;
     background-repeat: no-repeat;
@@ -107,7 +121,7 @@ details{
     background-image: linear-gradient(
             to top, #260567ad, #4029875d
         ),
-        url("https://play-lh.googleusercontent.com/SDRKeYeVIRzA5TW4W7w3JX4kykKdG5Be12Dba5xWVABB2FCZXB4iGK5pskq9tvNVMg");
+        url("https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.jpg");
         transition: all 1.8s linear;
         background-position: center center;
         background-repeat: no-repeat;
@@ -129,31 +143,49 @@ div{
 #opiniones{
     display: flex;
     align-items: center;
-    padding: 2rem;
-    margin: 10% 0;
-}
-
-#opiniones div p{
-    text-align: left;
-    margin: 3% 6%;
+    width: auto;
+    height: 100%;
+    padding: 9% 0;
+    margin: 0;
 }
 
 #opiniones label textarea{
-    width: 50%;
+    width: 80%;
     height: 50%;
     font-size: 1em;
     background-color: #fff3cf;
 }
 
+
 #opiniones:hover{
+    justify-content: center;
     background-color: #7556a5;
-    transition: all 2.5s ease-in-out;
-    display: inline-block;
-    width: 100%;
+    transition: all 1.5s ease-in-out;
+    margin: 2% 10%;
+}
+
+.parrafo {
+    opacity: 1;
+    height: auto;
+    transition: all 3s ease-in-out;
+}
+
+#opiniones:hover > div .parrafo{
+    transition: all 2s ease-in-out;
+    opacity: 0;
+    overflow: hidden;
+    width: 0;
+    height: 0;
 }
 
 #contacto{
     display: flex;
+    height: 45rem;
+    align-items: center;
+}
+#contacto div{
+    height: 20rem;
+
 }
 
 .redes, .formulario {
@@ -175,7 +207,7 @@ div{
     background-image: linear-gradient(
             to top,  #57378b9c, #937ac6a5  
         ),
-        url("https://blog.grupocajamar.com/wp-content/uploads/2017/07/GettyImages-471756031.jpg");
+        url("https://bing.com/th/id/BCO.b100f473-f639-47b5-ae46-cc60f8e14435.png");
     background-size: cover;
     background-position: center center;
     transition: all 1.4s linear;
@@ -187,7 +219,7 @@ div{
     background-image: linear-gradient(
             to top, #57378b9c, #937ac6a5 
         ),
-        url("https://www.agenceici.com/assets/uploads/images/news/max/601523302836.jpg");
+        url("https://bing.com/th/id/BCO.e10d9951-a008-4efa-beb8-0542c9785ba7.png");
     background-size: cover;
     background-position: center center;
     transition: all 1.4s linear;
@@ -255,6 +287,9 @@ button > a {
 
     li, p, label{
         font-size: 25px;
+    }
+    div{
+        margin: 2%;
     }
 
     #informacion {
