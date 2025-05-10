@@ -90,16 +90,16 @@ footer {
 }
 
 h1{
-  color: darkblue;
+  color:#00008B ;
 }
 
 h2,h3{
-  color: burlywood;
+  color: #DEB887;
 }
 
 /* Cambia el color de los párrafos dentro de una sección */
 section p {
-  color: darkblue;
+  color: #00008B;
 }
 
 /* Aplica un estilo solo al primer elemento de la lista */
@@ -109,5 +109,5 @@ ul > li:first-child {
 
 /* Cambia el color del texto al pasar el mouse */
 h1:hover {
-  color: whitesmoke;
+  color: #F5F5F5;
 }
