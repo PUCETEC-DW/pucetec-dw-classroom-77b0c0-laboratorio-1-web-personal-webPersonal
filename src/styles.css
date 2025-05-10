@@ -115,6 +115,13 @@ details{
         cursor: pointer;
 }
 
+li, p, label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color: rgb(165, 141, 141);
+    text-shadow: #0a0a0a 2px 3px 5px;
+}
+
 div{
     text-align: center;
 }
@@ -219,13 +226,6 @@ ol{
 
 a{
     text-decoration: none;
-}
-
-li, p, label{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2rem;
-    color: white;
-    text-shadow: #0a0a0a 2px 3px 5px;
 }
 
 button,th {
