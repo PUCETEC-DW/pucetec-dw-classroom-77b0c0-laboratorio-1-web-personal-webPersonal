@@ -76,6 +76,10 @@ section p, section ul {
   margin: 10px 0;
 }
 
+ul {
+  padding-left: 20px;
+}
+
 ul li {
   margin: 5px 0;
 }
@@ -89,11 +93,11 @@ footer {
   margin-top: 20px;
 }
 
-h1{
-  color:#00008B ;
+h1 {
+  color: #00008B;
 }
 
-h2,h3{
+h2, h3 {
   color: #DEB887;
 }
 
@@ -110,4 +114,9 @@ ul > li:first-child {
 /* Cambia el color del texto al pasar el mouse */
 h1:hover {
   color: #F5F5F5;
+}
+
+
+div p {
+  line-height: 1.6;
 }
