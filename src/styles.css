@@ -31,28 +31,6 @@ nav a:hover {
   color: #fffacd;
 }
 
-.social-buttons {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.social-buttons a {
-  background-color: #8b0000;
-  color: #eee8d5;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border: 2px solid #daa520;
-  border-radius: 10px;
-  transition: background-color 0.5s;
-}
-
-.social-buttons a:hover {
-  background-color: #daa520;
-  color: #000;
-}
-
 main {
   padding: 2rem;
 }
@@ -85,4 +63,26 @@ footer {
   border: 3px solid #DAA520;  
   margin: 1rem auto;      
   display: block;
+}
+
+.social-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-buttons a {
+  background-color: #8b0000;
+  color: #eee8d5;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: 2px solid #daa520;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+.social-buttons a:hover {
+  background-color: #daa520;
+  color: #000;
 }
