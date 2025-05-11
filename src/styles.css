@@ -5,19 +5,19 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f0f8ff; 
-  color: #003366; 
+  color: #036; 
 }
 
 /* Estilo de la NAV */
 nav {
-  background-color: #003366; 
+  background-color: #036; 
   color: white;
   padding: 10px 0;
   text-align: center;
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgb(0, 0, 0); 
 }
 
 nav ul {
@@ -63,12 +63,12 @@ section {
   max-width: 800px;
   background-color: #e6f2ff; 
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0, 0, 0); 
 }
 
 section h2 {
-  color: #003366;
-  border-bottom: 2px solid #003366;
+  color: #036;
+  border-bottom: 2px solid #036; 
   padding-bottom: 5px;
 }
 
@@ -88,7 +88,7 @@ ul li {
 footer {
   text-align: center;
   padding: 10px 0;
-  background-color: #003366; /* Azul oscuro */
+  background-color: #036; /* Azul oscuro */
   color: white;
   margin-top: 20px;
 }
@@ -115,7 +115,6 @@ ul > li:first-child {
 h1:hover {
   color: #F5F5F5;
 }
-
 
 div p {
   line-height: 1.6;
