@@ -13,6 +13,16 @@ header {
   padding: 1.5rem;
 }
 
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #daa520;
+  margin: 1rem auto;
+  display: block;
+}
+
 nav {
   background-color: #5c4033;
   padding: 1rem;
@@ -26,45 +36,7 @@ nav a {
   font-weight: bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
-  color: #fffacd;
-}
-
-main {
-  padding: 2rem;
-}
-
-section {
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background-color: #1a1a1a;
-  border-left: 5px solid #8b0000;
-}
-
-h1, h2 {
-  color: #daa520;
-}
-
-footer {
-  background-color: #000;
-  color: #999;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  border-top: 2px solid #8b0000;
-}
-
-.foto-perfil {
-  width: 150px;           
-  height: 150px;
-  object-fit: cover;      
-  border-radius: 50%;     
-  border: 3px solid #DAA520;  
-  margin: 1rem auto;      
-  display: block;
-}
-
+/* Primero los estilos de .social-buttons para evitar conflictos de jerarquía */
 .social-buttons {
   margin-top: 1rem;
   display: flex;
@@ -85,4 +57,35 @@ footer {
 .social-buttons a:hover {
   background-color: #daa520;
   color: #000;
+}
+
+/* Luego el hover del nav, menos específico */
+nav a:hover {
+  text-decoration: underline;
+  color: #fffacd;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #1a1a1a;
+  border-left: 5px solid #8b0000;
+}
+
+h1,
+h2 {
+  color: #daa520;
+}
+
+footer {
+  background-color: #000;
+  color: #999;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 2px solid #8b0000;
 }
