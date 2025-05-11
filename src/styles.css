@@ -26,16 +26,16 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  text-decoration: underline;
+  color: #fffacd;
+}
+
 .social-buttons {
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-}
-
-.social-buttons a:hover {
-  background-color: #daa520;
-  color: #000;
 }
 
 .social-buttons a {
@@ -48,9 +48,9 @@ nav a {
   transition: background-color 0.5s;
 }
 
-nav a:hover {
-  text-decoration: underline;
-  color: #fffacd;
+.social-buttons a:hover {
+  background-color: #daa520;
+  color: #000;
 }
 
 main {
