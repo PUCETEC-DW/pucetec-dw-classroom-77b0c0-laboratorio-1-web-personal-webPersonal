@@ -36,7 +36,6 @@ nav a {
   font-weight: bold;
 }
 
-/* Primero los estilos de .social-buttons para evitar conflictos de jerarquía */
 .social-buttons {
   margin-top: 1rem;
   display: flex;
@@ -54,15 +53,14 @@ nav a {
   transition: background-color 0.5s;
 }
 
+  nav a:hover {
+  text-decoration: underline;
+  color: #fffacd;
+}
+
 .social-buttons a:hover {
   background-color: #daa520;
   color: #000;
-}
-
-/* Luego el hover del nav, menos específico */
-nav a:hover {
-  text-decoration: underline;
-  color: #fffacd;
 }
 
 main {
