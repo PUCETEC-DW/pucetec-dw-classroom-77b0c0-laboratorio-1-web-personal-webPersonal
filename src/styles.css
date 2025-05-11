@@ -60,7 +60,7 @@ body {
   margin: 2em auto;
   border-radius: 12px;
   max-width: 900px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
 }
 
 /* Selector combinado: h2 dentro de .section */
@@ -108,7 +108,7 @@ body {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
 }
 
 /* Footer */
@@ -119,8 +119,8 @@ footer {
   color: #e0e0e0;
 }
 
-/* Media Query mínimo 768px (no es obligatorio, pero refuerza el requisito) */
-@media (min-width: 768px) {
+/* Media query con notación moderna */
+@media (width >= 768px) {
   .navbar {
     padding: 1em 4em;
   }
