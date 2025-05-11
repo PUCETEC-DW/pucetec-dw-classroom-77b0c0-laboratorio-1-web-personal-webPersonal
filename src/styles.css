@@ -1,51 +1,135 @@
-/* Estilos generales */
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente y fondo general */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e2d2f;
+  color: #e0e0e0;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+/* NAV */
+.navbar {
+  background-color: #284b63;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: #e0e0e0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-weight: bold;
+  padding: 0.5em;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+/* Selector combinado con pseudo-clase */
+.nav-links li a:hover {
+  background-color: #6fb3b8;
+  color: #001858;
+}
+
+/* Secciones */
+.section {
+  padding: 4em 2em;
+  text-align: center;
+  background-color: #2e3c43;
+  margin: 2em auto;
+  border-radius: 12px;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Selector combinado: h2 dentro de .section */
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #6fb3b8;
+}
+
+.perfil {
+  max-width: 220px;
+  border-radius: 50%;
+  border: 4px solid #6fb3b8;
+  margin: 1.5em auto;
+  display: block;
+}
+
+.experiencia-block {
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.experiencia-block h3 {
+  color: #e0e0e0;
+  margin-bottom: 0.5em;
+}
+
+/* Lista de hobbies */
+.hobbies-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Selector combinado: solo hijos directos li */
+.hobbies-list > li {
+  margin-bottom: 2em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* Imagen dentro de cada hobby */
+.imagen-hobbie img {
+  margin-top: 0.5em;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2em;
+  background-color: #284b63;
+  color: #e0e0e0;
+}
+
+/* Media Query mínimo 768px (no es obligatorio, pero refuerza el requisito) */
+@media (min-width: 768px) {
+  .navbar {
+    padding: 1em 4em;
   }
-  
-  /* Layout básico */
-  header, footer {
-    background-color: #004080;
-    color: white;
-    text-align: center;
-    padding: 1em;
+
+  .nav-links {
+    gap: 2em;
   }
-  
-  main {
-    padding: 1em;
-    max-width: 800px;
-    margin: auto;
-    background-color: #fff;
+
+  .section {
+    padding: 5em 4em;
   }
-  
-  /* Imagen */
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1em auto;
-  }
-  
-  /* Selectores combinados */
-  
-  /* 1. Selector descendente */
-  main section p {
-    color: #333;
-  }
-  
-  /* 2. Selector hijo directo */
-  ul.lista-hobbies > li {
-    list-style-type: square;
-    margin-left: 20px;
-  }
-  
-  /* 3. Pseudo-clase :hover */
-  .lista-hobbies li:hover {
-    color: darkgreen;
-    cursor: pointer;
-  }
-  
+}

@@ -1,39 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentación Personal - Esteban Villegas</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Esteban Villegas | Presentación</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
   <header>
-    <h1>Esteban Villegas</h1>
-    <p>Desarrollador en formación | Ingeniero en Petróleos</p>
+    <nav class="navbar">
+      <h1 class="logo">Esteban Villegas</h1>
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section>
+    <section id="sobre-mi" class="section">
       <h2>Sobre mí</h2>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpyr0dMcrdXZ2AHnCCP--a8sBkAJLyTJAvw&s" alt="Foto de Esteban">
+      <img src="https://cdn.inspenet.com/1.1-IMG-2-ART-16-WEB-29-11-2023.jpg" alt="Foto de Esteban" class="perfil">
       <p>
-        Soy estudiante de la carrera de desarrollo de software en la PUCE. Además, soy ingeniero en petróleos con experiencia en el campo de producción y BES.
+        Soy estudiante de desarrollo de software en la PUCE, con formación previa como ingeniero en petróleos. Me apasiona la tecnología, el desarrollo backend y los sistemas energéticos.
       </p>
     </section>
 
-    <section>
+    <section id="experiencia" class="section">
+      <h2>Experiencia Profesional</h2>
+      <div class="experiencia-block">
+        <h3>Industria Petrolera</h3>
+        <p>
+          Trabajé en el área de producción de hidrocarburos como técnico de bombas BES (Bombas  electro-sumergibles) en empresas como <strong>SERTECPET</strong> y <strong>HALLIBURTON</strong>.
+          Mis responsabilidades incluían instalación, diagnóstico y mantenimiento de sistemas de bombeo electro-sumergible para maximizar la eficiencia de extracción de crudo.
+        </p>
+      </div>
+      <div class="experiencia-block">
+        <h3>Desarrollo de Software</h3>
+        <p>
+          Actualmente me estoy formando como desarrollador, con experiencia en programación orientada a objetos en <strong>Python</strong> y <strong>C#</strong>. También he trabajado con bases de datos en <strong>SQL</strong> y desarrollo frontend con <strong>Django</strong>.
+        </p>
+      </div>
+    </section>
+
+    <section id="hobbies" class="section">
       <h2>Hobbies</h2>
-      <ul class="lista-hobbies">
-        <li>Gimnasio</li>
-        <li>Enduro</li>
-        <li>Autos</li>
-        <li>Fútbol</li>
+      <ul class="hobbies-list">
+        <li>
+          Gimnasio
+          <div class="imagen-hobbie">
+            <img src="https://i.pinimg.com/736x/1d/bc/ef/1dbcef30ca20a90b82c60490804de803.jpg" alt="Gimnasio">
+          </div>
+        </li>
+        <li>
+          Enduro
+          <div class="imagen-hobbie">
+            <img src="https://i.pinimg.com/originals/04/9f/dd/049fddc3688ac78344502221eb6e7bee.jpg" alt="Enduro">
+          </div>
+        </li>
+        <li>
+          Autos
+          <div class="imagen-hobbie">
+            <img src="https://i.pinimg.com/736x/15/eb/db/15ebdb301d753d4ea93b950b5824d9eb.jpg" alt="Autos">
+          </div>
+        </li>
+        <li>
+          Fútbol
+          <div class="imagen-hobbie">
+            <img src="https://i.pinimg.com/originals/b3/2c/b0/b32cb08dfe1d5825b98eef6f7bb01a7d.jpg" alt="Fútbol">
+          </div>
+        </li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>Contacto: evillegas802@puce.edu.ec</p>
+    <p>&copy; 2025 Esteban Villegas — evillegas802@puce.edu.ec</p>
   </footer>
 </body>
 </html>
