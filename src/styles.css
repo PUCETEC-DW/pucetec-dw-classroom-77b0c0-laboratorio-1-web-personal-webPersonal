@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   margin-top: 0.5rem;
@@ -33,7 +33,7 @@ header {
   font-style: normal;
 }
 
-header h2 {
+nav h2 {
   font-size: 20px;
 }
 
