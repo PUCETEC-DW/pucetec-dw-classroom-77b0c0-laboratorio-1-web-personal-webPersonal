@@ -5,6 +5,18 @@ body {
 
 header{
     display: flex;
+    width: auto;
+}
+
+h1{
+    font-size: 11rem;
+    color: #b89bea;
+    text-shadow: #050407 2px 3px 5px;
+    margin: 0;
+    height: 45rem;
+    align-content: center;
+    text-align: center;
+    padding: 0%;
 }
 
 h2{
@@ -12,13 +24,10 @@ h2{
     background-color: #ebdfbe88;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin: 20px;
     font-size: 3rem;
     align-content: center;
     text-shadow: #050407 1px 3px 2px;
 }
-
-
 
 h1, h2, details{
     font-family: 'Times New Roman', Times, serif;
@@ -54,19 +63,18 @@ h2:active{
 }
 
 .barra-navegacion label a h2{
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 #informacion{
     padding: 0.75rem;
     display: flex;
-    height: 35rem;
+    height: 45rem;
     justify-content: center;
 }
 
-#informacion div{
+#informacion > div{
     margin: 0 5%;
-    text-align: left;
 }
 
 #informacion .info, .mis-detalles{
@@ -263,16 +271,6 @@ table{
     text-align: center;
     margin-top: auto;
     background-color: #ebdfbe;
-}
-
-h1{
-    font-size: 11rem;
-    color: #b89bea;
-    text-shadow: #050407 2px 3px 5px;
-    margin: 0;
-    height: 45rem;
-    align-content: center;
-    text-align: center;
 }
 
 ol{
