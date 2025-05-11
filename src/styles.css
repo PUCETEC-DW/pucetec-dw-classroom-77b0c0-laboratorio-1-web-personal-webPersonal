@@ -25,7 +25,7 @@ body {
 
 header {
   background-color: #03204b;
-  color: rgb(255, 255, 255);
+  color: #fff;
   text-align: center;
   padding: 40px 20px;
   box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
@@ -44,23 +44,21 @@ header {
   }
 }
 
-header h1 {
-  font-size: 4.5em;
+h1,
+h2,
+h3 {
+  margin-top: 60px;
+  color: #00f;
+  font-size: 1.2em;
   margin-bottom: 10px;
-  color: #fff;
-}
-
-header h2 {
-  font-size: 3em;
-  margin-bottom: 10px;
-  color: #fff;
+  text-align: center;
 }
 
 .navbar {
   background-color: #03204b;
   padding: 15px 0;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -80,14 +78,14 @@ header h2 {
 }
 
 .navbar a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-size: 1.2em;
   transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-  color: #ffcc00;
+  color: #fc0;
 }
 
 main {
@@ -103,13 +101,7 @@ main {
 
 .identidad p {
   font-size: 1.8em;
-  color: #ffffff;
-}
-
-.identidad h1 {
-  color: #0000ff;
-  font-size: 1.8em;
-  margin-bottom: 10px;
+  color: #fff;
 }
 
 .biografia,
@@ -119,21 +111,20 @@ main {
 }
 
 h2 {
-  color: #0000ff;
   font-size: 1.8em;
   margin-bottom: 10px;
 }
 
 p {
   font-size: 1.8em;
-  color: #ffffff;
+  color: #fff;
 }
 
 .imagen img {
   width: 550px;
   height: 550px;
   border-radius: 50%;
-  border: 4px solid #0000ff;
+  border: 4px solid #00f;
   display: block;
   margin: 20px auto;
   box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
@@ -145,33 +136,12 @@ p {
 }
 
 .caracteristicas,
-li {
-  text-align: center;
-  font-size: 1.4em;
-  color: #ffffff;
-  margin-bottom: 5px;
-}
-
-h1 {
-  color: #0000ff;
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
 .contactos,
 li {
   text-align: center;
   font-size: 1.4em;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 5px;
-}
-
-h1 {
-  color: #0000ff;
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  text-align: center;
 }
 
 .proyectos {
@@ -180,7 +150,6 @@ h1 {
 }
 
 .proyectos h2 {
-  color: #0000ff;
   font-size: 1.8em;
   margin-bottom: 15px;
 }
@@ -193,17 +162,17 @@ h1 {
 .proyectos li {
   margin-bottom: 15px;
   font-size: 1.8em;
-  color: #ffffff;
+  color: #fff;
 }
 
 .proyectos a {
   margin-left: 10px;
-  color: #0000ff;
+  color: #00f;
   transition: color 0.3s ease;
 }
 
 .proyectos a:hover {
-  color: #0000ff;
+  color: #00f;
 }
 
 .redes ul {
@@ -218,7 +187,7 @@ h1 {
 
 .redes a {
   text-decoration: none;
-  color: #0000ff;
+  color: #00f;
   font-weight: 500;
   transition: all 0.3s ease;
   font-size: 1.1em;
@@ -240,22 +209,16 @@ footer {
   text-align: center;
   padding: 20px;
   background-color: #03204b;
-  color: #ffffff;
+  color: #fff;
   margin-top: 40px;
 }
 
 footer p {
-  color: #ffffff;
+  color: #fff;
   font-size: 1.8em;
   font-style: italic;
   text-align: center;
   letter-spacing: 0.5px;
-}
-
-h1,
-h2,
-h3 {
-  margin-top: 60px;
 }
 
 html {
