@@ -1,19 +1,21 @@
 body {
     margin: 0;
-    background-color: #826ea7d7;
+    background-color: #b9a6dbd7;
 }
 
-header, h2 {
-    background-color: #ebdfbe;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    border-radius: 0.4rem;
-    margin: 20px;
+header{
+    display: flex;
 }
 
 h2{
-    font-size: 3rem;
     color: white;
+
+    background-color: #ebdfbe88;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 3rem;
+    align-content: center;
     text-shadow: #050407 1px 3px 2px;
     margin: 2%;
 }
@@ -22,36 +24,74 @@ h1, h2, details{
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+
 h2:active{
     color: #a689eb;
 }
 
-header:hover, h2:hover {
+/*header:hover, h2:hover {
     background-image: linear-gradient(
         to top, #0e0d0fcc, #00000051
     ), url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
-    transition: all 1.8s linear;
+    transition: all 4s ease-in-out;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+}*/
+
+.barra-navegacion{
+    align-content: center;
+    margin: 2%;
+}
+
+.barra-navegacion:hover, h2:hover{
+    transition: all 2s ease-in-out;
+    background-image: linear-gradient(
+        to top, #0e0d0fcc, #00000051
+    ), url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 5rem;
+    margin: 0 5%;
 }
 
 .barra-navegacion label a h2{
-    display: inline-block;
-    padding: 0.2%;
+    padding: 2rem;
 }
 
-#informacion {
-    background-color: #826ea7;
+#informacion{
     padding: 0.75rem;
     display: flex;
     height: 35rem;
     justify-content: center;
 }
+#informacion div{
+    margin: 0 5%;
+    text-align: left;
+}
+#informacion .mis-detalles p{
+    font-size: px;
+}
 
-#informacion .info{
+#informacion .info, .mis-detalles{
     align-content: center;
+}
+.mis-detalles:hover{
+    transition: all 2s ease-in-out;
+    background-image:  linear-gradient(
+            to top, #bda5eddb, #4029875c 
+        ),url("https://media.licdn.com/dms/image/v2/C4E03AQGeR64Gi3ep1g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655940314810?e=1752710400&v=beta&t=jKM0U8plDLZtP6kwnw9GPzA6d1bsdUB1tprdbdN0QCs");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 0.5rem;
+
 }
 
 #informacion .imagen{
@@ -64,14 +104,14 @@ details{
 }
 
 .img2 {
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 50%;
     border-radius: 0.7rem;
     margin-left: 20%;
 }
 
 #maquetas{
-    height: 45rem;
+    height: 46.5rem;
 }
 
 #maquetas:hover{
@@ -246,10 +286,13 @@ table{
 }
 
 h1{
-    font-size: 6rem;
+    font-size: 11rem;
     color: #b89bea;
     text-shadow: #050407 2px 3px 5px;
     margin: 0;
+    height: 45rem;
+    align-content: center;
+    text-align: center;
 }
 
 ol{
