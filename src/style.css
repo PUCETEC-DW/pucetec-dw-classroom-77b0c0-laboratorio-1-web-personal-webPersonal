@@ -1,32 +1,78 @@
-header{
-    background-color: black;
-    padding: 10px;
-    margin: 10px;
-    color: red;
-    border:2px purple solid;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", serif;
+  background-color: #000000;
+  color: #eee8d5;
 }
 
-h1{
-    font-size: 50px;
-    text-align: center;
+header {
+  background-color: #8b0000;
+  color: #eee8d5;
+  text-align: center;
+  padding: 1.5rem;
 }
 
-h2{
-    font-size: 30px;
-    text-align: center;
-}
-nav{
-    background-color: beige;
-    font-size: 10;
+nav {
+  background-color: #5c4033;
+  padding: 1rem;
+  text-align: center;
 }
 
-section{
-    background-color: aliceblue;
+nav a {
+  color: #daa520;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
 }
 
-footer{
-    background-color: bisque;
+nav a:hover {
+  text-decoration: underline;
+  color: #fffacd;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #1a1a1a;
+  border-left: 5px solid #8b0000;
+}
+
+h1, h2 {
+  color: #daa520;
+}
+
+footer {
+  background-color: #000000;
+  color: #999999;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 2px solid #8b0000;
+}
+
+.social-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-buttons a {
+  background-color: #8b0000;
+  color: #eee8d5;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: 2px solid #daa520;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+.social-buttons a:hover {
+  background-color: #daa520;
+  color: #000000;
 }
