@@ -9,7 +9,6 @@ header{
 
 h2{
     color: white;
-
     background-color: #ebdfbe88;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -20,26 +19,24 @@ h2{
     margin: 2%;
 }
 
+div{
+    text-align: center;
+}
+
 h1, h2, details{
     font-family: 'Times New Roman', Times, serif;
 }
 
-
+li, p, label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color:  white;
+    text-shadow: #0a0a0a 2px 3px 5px;
+}
 
 h2:active{
     color: #a689eb;
 }
-
-/*header:hover, h2:hover {
-    background-image: linear-gradient(
-        to top, #0e0d0fcc, #00000051
-    ), url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
-    transition: all 4s ease-in-out;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-}*/
 
 .barra-navegacion{
     align-content: center;
@@ -70,17 +67,16 @@ h2:active{
     height: 35rem;
     justify-content: center;
 }
+
 #informacion div{
     margin: 0 5%;
     text-align: left;
-}
-#informacion .mis-detalles p{
-    font-size: px;
 }
 
 #informacion .info, .mis-detalles{
     align-content: center;
 }
+
 .mis-detalles:hover{
     transition: all 2s ease-in-out;
     background-image:  linear-gradient(
@@ -91,7 +87,6 @@ h2:active{
     background-size: cover;
     cursor: pointer;
     border-radius: 0.5rem;
-
 }
 
 #informacion .imagen{
@@ -169,17 +164,6 @@ details{
         cursor: pointer;
 }
 
-li, p, label{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2rem;
-    color:  white;
-    text-shadow: #0a0a0a 2px 3px 5px;
-}
-
-div{
-    text-align: center;
-}
-
 #opiniones{
     display: flex;
     align-items: center;
@@ -195,7 +179,6 @@ div{
     font-size: 1em;
     background-color: #fff3cf;
 }
-
 
 #opiniones:hover{
     justify-content: center;
