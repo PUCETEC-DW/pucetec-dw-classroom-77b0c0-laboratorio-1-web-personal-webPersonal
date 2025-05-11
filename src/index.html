@@ -1,35 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pagina Personal</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Elizabeth Mites</h1>
-      <h2> Software</h2>
-      <p>Bienvenidos a mi pagina personal.</p>
-    </header>
-      <main>
-        <section class="bio">
-          <h2>Sobre mí</h2>
-          <img src="https://via.placeholder.com/200" alt="Foto de perfil">
-          <p>Soy estudiante de Desarrollo de Software con interés en el diseño web, la programación y las bases de datos. Me gusta aprender y aplicar mis conocimientos en proyectos académicos y personales. </p>
-        </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página Personal</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="encabezado-contenido">
+      <img src="images/mi imagen.png" alt="Icono desarrollo web" class="imagen-fondo" />
+      <h1 data-aos="fade-down" data-aos-duration="1200">Elizabeth Mites</h1>
+      <a href="#modalBio" class="boton" data-aos="zoom-in" data-aos-delay="600">Saber más</a>
+    </div>
+  </header>
 
-        <section class="redes">
-          <h2>Mis redes sociales</h2>
-          <ul>
-            <li><a href="https://github.com/elizabeth27256" target="_blank">GitHub</a></li>
-            <li><a href="mailto:elizabethmites2703@gmail.com">Gmail</a></li>
-          </ul>
-        </section>
-      </main>
+  <main>
+    <section class="bio" id="bio" data-aos="fade-right">
+      <h2>Sobre mí</h2>
+      <img src="images/imagen2.png" alt="Foto de perfil" />
+      <p>Soy estudiante de Desarrollo de Software con interés en diseño web, programación y bases de datos. Me gusta aprender y aplicar mis conocimientos en proyectos académicos y personales.</p>
+    </section>
 
-    <footer>
-      <p> Elizabeth Mites. Todos los derechos reservados.</p>
-    </footer>
-  </body>
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <img src="images/images3.jpg" alt="Foto de perfil" />
+      <ul>
+        <li><strong>Desarrollo Web:</strong>Conocimientos básicos de HTML y CSS para crear sitios funcionales y atractivos.</li>
+        <li><strong>Trabajo en equipo:</strong> Buena comunicación y colaboración en proyectos grupales.</li>
+        <li><strong>Resolución de problemas:</strong> Capacidad para analizar situaciones y encontrar soluciones efectivas.</li>
+      </ul>
+    </section>
+
+    <section class="contacto-redes" data-aos="fade-up">
+      <div class="redes">
+        <h2>Mis redes sociales</h2>
+        <ul>
+          <li><a href="https://github.com/elizabeth27256" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="mailto:elizabethmites2703@gmail.com">Gmail</a></li>
+        </ul>
+      </div>
+
+      <div class="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo" />
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com" />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje aquí..."></textarea>
+
+          <button type="submit" class="boton">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 Elizabeth Mites. Todos los derechos reservados.</p>
+  </footer>
+
+  <div id="modalBio" class="modal">
+    <div class="modal-contenido">
+      <a href="#" class="cerrar" aria-label="Cerrar ventana">&times;</a>
+      <h2>Sobre mí</h2>
+      <img src="images/imagen.png" alt="Foto de perfil" />
+      <p> ¡Hola! soy Elizabeth Mites, tengo 19 años.</p>
+      <p>Me considero una persona curiosa y perseverante, siempre buscando maneras de mejorar tanto en lo personal como en lo profesional. </p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
 </html>
