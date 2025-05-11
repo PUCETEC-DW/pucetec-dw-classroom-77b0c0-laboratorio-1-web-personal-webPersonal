@@ -14,11 +14,11 @@ body {
   color: var(--prussian-blue);
 }
 
-/* Encabezado */
+
 header {
   text-align: center;
   background-color: var(--barn-red);
-  color: rgba(255 0 0 / 50%);
+  color: rgb(255 0 0 / 0.5);
   padding: 20px;
 }
 
@@ -175,7 +175,7 @@ footer {
   margin-top: 30px;
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (768px <= width <= 1024px) {
   .perfil-layout {
     flex-direction: column;
     align-items: center;
