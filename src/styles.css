@@ -15,7 +15,7 @@ body {
 }
 
 /* NAV */
-.navbar {
+nav {
   background-color: #284b63;
   display: flex;
   justify-content: space-between;
