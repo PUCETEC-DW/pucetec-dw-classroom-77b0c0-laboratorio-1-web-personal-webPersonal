@@ -22,11 +22,6 @@ h3 {
   margin-top: 10px;
 }
 
-ul li:hover {
-  color: #3f7;
-  cursor: pointer;
-}
-
 /* Estilo para el nav */
 nav {
     background-color: #333; /* Fondo oscuro */
@@ -54,6 +49,12 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #ff5733; /* Cambiar color al pasar el mouse */
+}
+
+/* Hover para elementos de lista */
+ul li:hover {
+  color: #3f7;
+  cursor: pointer;
 }
 
 /* Otros estilos */
