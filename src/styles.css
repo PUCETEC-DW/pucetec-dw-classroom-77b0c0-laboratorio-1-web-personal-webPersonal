@@ -27,6 +27,35 @@ ul li:hover {
   cursor: pointer;
 }
 
+/* Estilo para el nav */
+nav {
+    background-color: #333; /* Fondo oscuro */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none; /* Quitar viñetas */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Mostrar los elementos en línea */
+    justify-content: center; /* Centrar los elementos */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaciado entre los elementos */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quitar subrayado */
+    color: white; /* Texto blanco */
+    font-weight: bold;
+    transition: color 0.3s; /* Animación suave para el hover */
+}
+
+nav ul li a:hover {
+    color: #ff5733; /* Cambiar color al pasar el mouse */
+}
+
 /* Otros estilos */
 footer {
   text-align: center;
