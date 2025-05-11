@@ -16,12 +16,9 @@ h2{
     font-size: 3rem;
     align-content: center;
     text-shadow: #050407 1px 3px 2px;
-    margin: 2%;
 }
 
-div{
-    text-align: center;
-}
+
 
 h1, h2, details{
     font-family: 'Times New Roman', Times, serif;
@@ -48,7 +45,6 @@ h2:active{
     background-image: linear-gradient(
         to top, #0e0d0fcc, #00000051
     ), url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
-    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -314,6 +310,7 @@ button > a {
     li, p, label{
         font-size: 25px;
     }
+    
     div{
         margin: 2%;
     }
