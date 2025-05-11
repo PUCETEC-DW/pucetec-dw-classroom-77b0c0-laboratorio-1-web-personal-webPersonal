@@ -35,8 +35,6 @@ body {
   }
 }
 
-/* ---------------------- ESTILOS GENERALES PRIMERO ---------------------- */
-
 p {
   font-size: 1.8em;
   color: #fff;
@@ -53,6 +51,19 @@ h2 {
   font-size: 1.8em;
   margin-bottom: 10px;
   color: #00f;
+}
+
+.proyectos a {
+  margin-left: 10px;
+  color: #00f;
+  transition: color 0.3s ease;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
 }
 
 .redes a {
@@ -75,21 +86,8 @@ h2 {
   transform: scale(1.1);
 }
 
-.proyectos a {
-  margin-left: 10px;
-  color: #00f;
-  transition: color 0.3s ease;
-}
-
 .proyectos a:hover {
   color: #00f;
-}
-
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2em;
-  transition: color 0.3s ease;
 }
 
 .navbar a:hover {
@@ -103,8 +101,6 @@ footer p {
   text-align: center;
   letter-spacing: 0.5px;
 }
-
-/* ---------------------- ESTILOS DE ESTRUCTURA ---------------------- */
 
 header {
   background-color: #03204b;
