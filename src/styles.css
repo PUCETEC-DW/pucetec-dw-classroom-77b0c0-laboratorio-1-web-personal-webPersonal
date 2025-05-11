@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Georgia", serif;
-  background-color: #000000;
+  font-family: Georgia, serif;
+  background-color: #000;
   color: #eee8d5;
 }
 
@@ -26,6 +26,28 @@ nav a {
   font-weight: bold;
 }
 
+.social-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-buttons a:hover {
+  background-color: #daa520;
+  color: #000;
+}
+
+.social-buttons a {
+  background-color: #8b0000;
+  color: #eee8d5;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: 2px solid #daa520;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
 nav a:hover {
   text-decoration: underline;
   color: #fffacd;
@@ -47,32 +69,20 @@ h1, h2 {
 }
 
 footer {
-  background-color: #000000;
-  color: #999999;
+  background-color: #000;
+  color: #999;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
   border-top: 2px solid #8b0000;
 }
 
-.social-buttons {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.social-buttons a {
-  background-color: #8b0000;
-  color: #eee8d5;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border: 2px solid #daa520;
-  border-radius: 10px;
-  transition: background-color 0.5s;
-}
-
-.social-buttons a:hover {
-  background-color: #daa520;
-  color: #000000;
+.foto-perfil {
+  width: 150px;           
+  height: 150px;
+  object-fit: cover;      
+  border-radius: 50%;     
+  border: 3px solid #DAA520;  
+  margin: 1rem auto;      
+  display: block;
 }
