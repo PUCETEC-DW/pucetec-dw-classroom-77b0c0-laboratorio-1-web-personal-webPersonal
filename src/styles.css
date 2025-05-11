@@ -189,6 +189,7 @@ h2:active, h1:active{
     opacity: 1;
     height: auto;
     transition: all 3s ease-in-out;
+    padding: 0 1rem;
 }
 
 #opiniones:hover > div .parrafo{
@@ -320,7 +321,7 @@ button > a {
         visibility: hidden;
         width: 0;
         height: 0;
-        transition: all 0.1s linear;
+        transition: all 0.01s linear;
     }
 
     .opinion-sugerencia {  
