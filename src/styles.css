@@ -1,3 +1,8 @@
+html{
+    margin: 0;
+    overflow: hidden scroll;
+}
+
 body {
     margin: 0;
     background-color: #b9a6dbd7;
@@ -5,7 +10,12 @@ body {
 
 header{
     display: flex;
-    width: auto;
+}
+
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-content: center;
 }
 
 h1{
@@ -14,42 +24,35 @@ h1{
     text-shadow: #050407 2px 3px 5px;
     margin: 0;
     height: 45rem;
-    align-content: center;
-    text-align: center;
     padding: 0%;
+    cursor: pointer;
+    width: auto;
 }
 
 h2{
     color: white;
     background-color: #ebdfbe88;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
     font-size: 3rem;
-    align-content: center;
     text-shadow: #050407 1px 3px 2px;
 }
 
-h1, h2, details{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-li, p, label{
+li, p, label, details{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
     color:  white;
-    text-shadow: #0a0a0a 2px 3px 5px;
+    text-shadow: #0a0a0af2 3px 4px 7px;
 }
 
-h2:active{
+h2:active, h1:active{
     color: #a689eb;
 }
 
-.barra-navegacion{
+#barra-navegacion{
     align-content: center;
     margin: 2%;
 }
 
-.barra-navegacion:hover, h2:hover{
+#barra-navegacion:hover, h2:hover{
     transition: all 2s ease-in-out;
     background-image: linear-gradient(
         to top, #0e0d0fcc, #00000051
@@ -59,21 +62,21 @@ h2:active{
     background-size: cover;
     cursor: pointer;
     border-radius: 5rem;
-    margin: 0 5%;
+    margin: 1% 5%;
 }
 
-.barra-navegacion label a h2{
+#barra-navegacion label a h2{
     padding: 2rem 0;
 }
 
 #informacion{
-    padding: 0.75rem;
     display: flex;
     height: 45rem;
+    width: 100%;
     justify-content: center;
 }
 
-#informacion > div{
+#informacion > .info{
     margin: 0 5%;
 }
 
@@ -97,20 +100,11 @@ h2:active{
     align-content: center;
 }
 
-details{
-    text-align: left;
-    cursor: pointer;
-}
-
 .img2 {
     width: 100%;
     height: 50%;
     border-radius: 0.7rem;
     margin-left: 20%;
-}
-
-#maquetas{
-    height: 46.5rem;
 }
 
 #maquetas:hover{
@@ -174,7 +168,6 @@ details{
     width: auto;
     height: 100%;
     padding: 9% 0;
-    margin: 0;
 }
 
 #opiniones label textarea{
@@ -189,6 +182,7 @@ details{
     background-color: #7556a5;
     transition: all 1.5s ease-in-out;
     margin: 2% 10%;
+    text-align: center;
 }
 
 .parrafo {
@@ -211,15 +205,11 @@ details{
     align-items: center;
 }
 
-#contacto div{
-    height: 20rem;
-
-}
-
 .redes, .formulario {
     background-color: #6f48ad;
     border-radius: 0.6rem;
     width: 50%;
+    height: 20rem;
     margin: 2%;
 }
 
@@ -228,7 +218,6 @@ details{
     border-radius: 0.4rem;
     text-align: center;
 }
-
 
 .redes:hover {
     padding: 1.8rem;
@@ -259,9 +248,8 @@ table{
     font-size: 33px;
     border-radius: 1rem;
     border: #f6e8eb; 
-    border-spacing: 0; 
+    border-spacing: 0.5rem; 
     overflow: hidden;
-    display: inline-block;
 }
 
 .pie-pagina{
@@ -297,33 +285,50 @@ button > a {
 }
 
 @media (width < 768px) {
+    header{
+        display: inline;
+    }
+
     h1{
-        font-size: 5rem;
+        font-size: 100px;
+        width: auto;
         text-shadow: #040306 2px 2px 1.5px;
+        margin: 0;
+        padding: 0;
     }
-
-    h2, .pie-pagina{
-        font-size: 30px;
-    }
-
-    li, p, label{
-        font-size: 25px;
-    }
-
+    
     div{
         margin: 2%;
     }
 
     #informacion {
         cursor: pointer;
+        justify-content: center;
+    }
+
+    #informacion .info h2{
+        width: auto;
+    }
+
+    #informacion .mis-detalles{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .parrafo{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        transition: all 0.1s linear;
     }
 
     .opinion-sugerencia {  
         background-color: #f6e8eb; 
     }
 
-    #contacto {
-        overflow: scroll;
+    #contacto .formulario{
+        height: auto;
     }
 
     ol {
