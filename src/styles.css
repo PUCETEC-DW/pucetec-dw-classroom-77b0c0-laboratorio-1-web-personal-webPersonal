@@ -47,6 +47,12 @@ li {
   margin-bottom: 5px;
 }
 
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #00f;
+}
+
 h2 {
   font-size: 1.8em;
   margin-bottom: 10px;
@@ -113,6 +119,7 @@ header {
 
 header h1 {
   font-size: 4.5em;
+  color: #fff;
   margin-bottom: 10px;
 }
 
@@ -139,10 +146,6 @@ header h2 {
   display: flex;
   justify-content: center;
   gap: 30px;
-}
-
-.navbar li {
-  display: inline;
 }
 
 main {
