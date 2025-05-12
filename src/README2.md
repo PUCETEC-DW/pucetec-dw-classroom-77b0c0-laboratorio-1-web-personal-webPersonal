@@ -16,5 +16,5 @@ https://michalsnik.github.io/aos/.
 
 Para la Ventana Modal (Sección Saber más) 
 Utilize un enlace con `href="#modalBio"` y CSS `:target` para activar la ventana modal sin JavaScript.
-Documento de apoyo https://ed.team/blog/ventana-modal-con-css-sin-javascript
+Pagina de apoyo https://ed.team/blog/ventana-modal-con-css-sin-javascript
 Cree una carpeta para poder guardar las imagenes y se pueda visualizar.
