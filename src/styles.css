@@ -1,6 +1,6 @@
 /* Estilo general */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif; /* Sin comillas */
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -25,9 +25,19 @@ header img {
   display: block;
   margin: 20px auto;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgb(0 0 0 / 20%); /* Notación moderna */
   max-width: 200px; /* Tamaño más pequeño */
   height: auto;
+}
+
+/* Enlaces generales */
+a {
+  color: #007bff; /* Azul */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Navegación */
@@ -78,16 +88,6 @@ section h2 {
 section p, section ul {
   font-size: 1rem;
   line-height: 1.6;
-}
-
-/* Enlaces */
-a {
-  color: #007bff; /* Azul */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 /* Footer */
