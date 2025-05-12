@@ -1,6 +1,6 @@
 Pasos realizados para la ejecución de mi pagina personal
 
-Utilize etiquetas semánticas: `header`, `main`, `section`, `footer` en mi html 5.
+Utilize etiquetas semánticas: `header`, `main`, `section`, `footer` `nav` en mi html 5.
 Añadi secciones: Sobre mí, Habilidades, Redes Sociales y Contactos.
 Consulte en internet una funcion que es ventana modal usando HTML y CSS puros para mostrar información adicional cuando se da click va aparecer informacion adicional.
 
