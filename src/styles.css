@@ -56,10 +56,10 @@ header>span{
 
 
 footer{
-  background-color: black; /* Fondo oscuro */
-  color: white;           /* Texto blanco */
-  text-align: center;     /* Centrado del texto */
-  padding: 10px 0;        /* Espaciado superior e inferior */
-  font-size: 14px;        /* Tamaño de fuente pequeño */
-  margin: 30px 0;  /* Márgenes pequeños para cada párrafo */
+  background-color: black; 
+  color: white;           
+  text-align: center;     
+  padding: 10px 0;     
+  font-size: 14px;      
+  margin: 30px 0;  
 }
