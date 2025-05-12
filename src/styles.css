@@ -63,7 +63,7 @@ nav ul li a:hover {
 
 /* Hover para elementos de lista */
 ul li:hover {
-  color: rgb(240, 125, 125);
+  color: rgb(240 125 125); /* Notación moderna */
   cursor: pointer;
 }
 
