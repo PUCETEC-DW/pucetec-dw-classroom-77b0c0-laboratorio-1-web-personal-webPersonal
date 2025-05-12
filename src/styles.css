@@ -29,10 +29,11 @@ header h2 {
 /* Estilo para la imagen de perfil */
 .profile-pic {
     display: block;
-    margin: 20px auto;
+    margin: 0 auto;
     width: 150px;
     height: 150px;
-    border: 3px solid #333; /* Borde negro */
+    border-radius: 50%; /* Hace la imagen circular */
+    border: 3px solid #333;
 }
 
 /* Estilo para el footer */
@@ -43,6 +44,7 @@ footer {
     color: white;
 }
 
+/* Estilo para los enlaces de redes sociales */
 footer ul {
     list-style: none;
     padding: 0;
@@ -53,13 +55,13 @@ footer ul {
 
 footer ul li a {
     text-decoration: none;
-    color: white;
+    color: #333;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 footer ul li a:hover {
-    color: #ffcccb;
+    color: #ff5733;
 }
 
 /* Estilo para el nav */
