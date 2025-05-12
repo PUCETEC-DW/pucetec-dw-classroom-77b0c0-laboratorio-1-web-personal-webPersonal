@@ -1,0 +1,265 @@
+body {
+    background-color: rgb(204 224 212 / 0.608); 
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    font-family: Cambria, serif; 
+    background-color: rgb(130 203 203 / 0.989); 
+    text-align: center;
+    border-radius: 0.4rem;
+    position: fixed;
+}
+
+header:hover {
+    background-image: url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
+    transition: all 1.8s linear;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#barra-navegacion label {
+    background-color: rgb(30 100 100 / 0.31); 
+    display: inline-block;
+    border-radius: 0.7rem;
+    width: 7rem;
+    margin-left: 0.6rem;
+    margin-top: 0.3rem;
+}
+
+main {
+    font-family: Cambria, serif; 
+    max-width: 1400px;
+    margin: 0 8%;
+    padding-top: 8rem; 
+    overflow: hidden;
+}
+
+#informacion {
+    background-color: rgb(173 235 235 / 0.347); 
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+#informacion details {
+    font-size: 2rem;
+}
+
+#maquetas {
+    padding: 1.25rem 0.75rem;
+    background-image: linear-gradient(
+            to top, rgb(0 0 0 / 0.344), rgb(0 0 0 / 0.059) 
+        ),
+        url("https://cdn.andro4all.com/andro4all/2016/07/fondos-pantalla-android-2.jpg?width=800");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.python, .csharp, .java-script{
+    padding: 1.25rem 0.8125rem;
+    border-radius: 0.3rem;
+    margin: 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: rgb(186, 224, 213);
+    text-shadow: rgb(1 4 1 / 0.804) 3px 3px 5px; 
+}
+
+.python {
+    background-image: linear-gradient(
+            to top, rgb(0 0 0 / 0.373), rgb(0 0 0 / 0.542) 
+        ),
+        url("https://th.bing.com/th/id/OIP.jBcZ1zGElDbJtzTX1l6VWAHaFP?cb=iwc1&rs=1&pid=ImgDetMain");
+}
+
+.csharp {
+    background-image: linear-gradient(
+            to top, rgb(0 0 0 / 0.373), rgb(0 0 0 / 0.542) 
+        ),
+        url("https://store-images.s-microsoft.com/image/apps.6182.13979687581806399.1baa13f8-75c6-40c4-9957-dbae810e256c.738d1127-4fac-4850-b8bb-5cf701140088");
+}
+
+.java-script {  
+    background-image: linear-gradient(
+            to top, rgb(0 0 0 / 0.373), rgb(0 0 0 / 0.542) 
+        ),
+        url("https://play-lh.googleusercontent.com/SDRKeYeVIRzA5TW4W7w3JX4kykKdG5Be12Dba5xWVABB2FCZXB4iGK5pskq9tvNVMg");
+}
+
+#opiniones {
+    background-color: rgb(43 226 134 / 0.181); 
+    padding: 1.875rem 1.25rem;
+}
+
+#sugerencia {
+    padding: 3%;
+    margin: 0.125rem;
+    width: auto;
+    font-size: 2rem;
+}
+
+#contacto {
+    background-color: rgb(177 232 224 / 0.599); 
+    justify-content: center;
+    display: flex;
+}
+
+#redes {
+    background-color: rgb(166 211 194 / 0.488); 
+    width: 50%;
+    padding: 1.875rem;
+}
+
+#redes:hover {
+    color: #a3cccb;
+    padding: 1.875rem;
+    width: 50%;
+    background-image: linear-gradient(
+            to top, rgb(0 0 0 / 0.2), rgb(0 0 0 / 0.2) 
+        ),
+        url("https://blog.grupocajamar.com/wp-content/uploads/2017/07/GettyImages-471756031.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: all 1.4s linear;
+    background-repeat: no-repeat;
+}
+
+#formulario {
+    background-color: rgb(127 255 212 / 0.441); 
+    width: 50%;
+    padding: 1.875rem;
+}
+
+#formulario:hover {
+    color: #59c5c2;
+    padding: 1.875rem;
+    width: 50%;
+    background-image: linear-gradient(
+            to top, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5) 
+        ),
+        url("https://consejotecnologico.com/wp-content/uploads/2019/03/istock-658846350.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: all 1.4s linear;
+    background-repeat: no-repeat;
+}
+
+ol {
+    display: flex;
+}
+
+.img2 {
+    width: 270px;
+    height: 270px;
+    border-radius: 2rem;
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(226, 186, 140);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(228, 247, 246);
+}
+
+h1 {
+    margin: 0;
+    color: rgb(140, 245, 239);
+}
+
+summary {
+    color: rgb(226, 186, 140);
+    text-shadow: rgb(1 4 1 / 0.804) 3px 3px 5px; 
+}
+
+/* Corrected order to fix specificity issue */
+form label {
+    background-color: rgb(30 100 100 / 0.31); 
+    display: inline-block;
+    border-radius: 0.7rem;
+    width: 7rem;
+    margin-left: 0.6rem;
+    margin-top: 0.3rem;
+}
+
+textarea {
+    padding: 0.45rem;
+    font-size: 2.4rem;
+}
+
+dd {
+    font-size: 1.25rem;
+    display: flex;
+}
+
+dt {
+    font-family: Cambria, serif; 
+    font-size: 2rem;
+    color: rgb(226, 186, 140);
+    text-align: center;
+    text-shadow: rgb(1 4 1 / 0.804) 3px 3px 5px; 
+}
+
+button {
+    background-color: #59c5c2;
+    border-radius: 0.2rem;
+    font-size: 1.8rem;
+    padding: 0.6rem 1rem;
+}
+
+#pie-pagina { 
+    padding: 3%;
+    text-align: center;
+    background-color: rgb(30 100 100 / 0.31); 
+    border-radius: 0.7rem;
+}
+
+@media (max-width: 768px) {
+    header {
+        background-color: rgb(82, 165, 206);
+        position: fixed;
+        width: 100%;
+    }
+
+    header #barra-navegacion {
+        background-color: rgb(105, 153, 220);
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 1.25rem;
+    }
+
+    #informacion {
+        margin-top: 21%;
+    }
+
+    .opinion-sugerencia {  
+        background-color: rgb(30 100 100 / 0.31); 
+        border-radius: 0.7rem;
+    }
+
+    #contacto {
+        overflow: scroll;
+    }
+
+    textarea {
+        flex-wrap: wrap;
+        font-size: 0.75rem;
+    }
+
+    ol {
+        display: inline-block;
+    }
+
+    dd {
+        display: inline;
+    }
+}

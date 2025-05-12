@@ -1,0 +1,338 @@
+html{
+    margin: 0;
+    overflow: hidden scroll;
+}
+
+body {
+    margin: 0;
+    background-color: #b9a6dbd7;
+}
+
+header{
+    display: flex;
+}
+
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-content: center;
+}
+
+h1{
+    font-size: 11rem;
+    color: #b89bea;
+    text-shadow: #050407 2px 3px 5px;
+    margin: 0;
+    height: 45rem;
+    padding: 0%;
+    cursor: pointer;
+    width: auto;
+}
+
+h2{
+    color: white;
+    background-color: #ebdfbe88;
+    font-size: 3rem;
+    text-shadow: #050407 1px 3px 2px;
+}
+
+li, p, label, details{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color:  white;
+    text-shadow: #0a0a0af2 3px 4px 7px;
+}
+
+nav label a h2{
+    padding: 2rem 0;
+}
+
+h2:active, h1:active{
+    color: #a689eb;
+}
+
+nav{
+    align-content: center;
+    margin: 2%;
+}
+
+nav:hover, h2:hover{
+    transition: all 2s ease-in-out;
+    background-image: linear-gradient(
+        to top, #0e0d0fcc, #00000051
+    ), url("https://tse2.mm.bing.net/th?id=OIG2.dvcM_b_Dk22knjmI00IS&pid=ImgGn");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 5rem;
+    margin: 1% 5%;
+}
+
+#informacion{
+    display: flex;
+    height: 45rem;
+    width: 100%;
+    justify-content: center;
+}
+
+#informacion > .info{
+    margin: 0 5%;
+}
+
+#informacion .info, .mis-detalles{
+    align-content: center;
+}
+
+.mis-detalles:hover{
+    transition: all 2s ease-in-out;
+    background-image:  linear-gradient(
+            to top, #bda5eddb, #4029875c 
+        ),url("https://media.licdn.com/dms/image/v2/C4E03AQGeR64Gi3ep1g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655940314810?e=1752710400&v=beta&t=jKM0U8plDLZtP6kwnw9GPzA6d1bsdUB1tprdbdN0QCs");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+#informacion .imagen{
+    align-content: center;
+}
+
+.img2 {
+    width: 100%;
+    height: 50%;
+    border-radius: 0.7rem;
+    margin-left: 20%;
+}
+
+#maquetas:hover{
+    background-image: linear-gradient(
+            to top, #bda5eddb, #4029875c 
+        ),
+        url("https://cdn.andro4all.com/andro4all/2016/07/fondos-pantalla-android-2.jpg?width=800");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 4s ease-in-out;
+}
+
+.python, .csharp, .java-script{
+    background-color: #ebdfbe;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    margin: 4%;
+    text-shadow: #0d0911 2px 4px 5px;
+}
+
+.python:hover {
+    background-image: linear-gradient(
+            to top, #260567ad, #4029875d
+        ),
+        url("https://bing.com/th/id/BCO.323977bd-62e5-476e-962d-b7c5d74f4829.png");
+    transition: all 1.8s linear;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.csharp:hover {
+    background-image: linear-gradient(
+            to top, #260567ad,#4029875d
+        ),
+        url("https://store-images.s-microsoft.com/image/apps.6182.13979687581806399.1baa13f8-75c6-40c4-9957-dbae810e256c.738d1127-4fac-4850-b8bb-5cf701140088");
+        transition: all 1.8s linear;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+}
+
+.java-script:hover {  
+    background-image: linear-gradient(
+            to top, #260567ad, #4029875d
+        ),
+        url("https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.jpg");
+        transition: all 1.8s linear;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+}
+
+#opiniones{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    padding: 9% 0;
+}
+
+#opiniones label textarea{
+    width: 80%;
+    height: 50%;
+    font-size: 1em;
+    background-color: #fff3cf;
+}
+
+#opiniones:hover{
+    justify-content: center;
+    background-color: #7556a5;
+    transition: all 1.5s ease-in-out;
+    margin: 2% 10%;
+    text-align: center;
+}
+
+.parrafo {
+    opacity: 1;
+    height: auto;
+    transition: all 3s ease-in-out;
+    padding: 0 1rem;
+}
+
+#opiniones:hover > div .parrafo{
+    transition: all 2s ease-in-out;
+    opacity: 0;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+
+#contacto{
+    display: flex;
+    height: 45rem;
+    align-items: center;
+}
+
+.redes, .formulario {
+    background-color: #6f48ad;
+    border-radius: 0.6rem;
+    width: 50%;
+    height: 20rem;
+    margin: 2%;
+}
+
+.formulario  input{
+    background-color: #fff3cf;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+
+.redes:hover {
+    padding: 1.8rem;
+    background-image: linear-gradient(
+            to top,  #57378b9c, #937ac6a5  
+        ),
+        url("https://bing.com/th/id/BCO.b100f473-f639-47b5-ae46-cc60f8e14435.png");
+    background-size: cover;
+    background-position: center center;
+    transition: all 1.4s linear;
+    background-repeat: no-repeat;
+}
+
+.formulario:hover {
+    padding: 1.8rem;
+    background-image: linear-gradient(
+            to top, #57378b9c, #937ac6a5 
+        ),
+        url("https://bing.com/th/id/BCO.e10d9951-a008-4efa-beb8-0542c9785ba7.png");
+    background-size: cover;
+    background-position: center center;
+    transition: all 1.4s linear;
+    background-repeat: no-repeat;
+}
+
+table{
+    background-color:  #b89bea;
+    font-size: 33px;
+    border-radius: 1rem;
+    border: #f6e8eb; 
+    border-spacing: 0.5rem; 
+    overflow: hidden;
+}
+
+.pie-pagina{
+    font-size: 2rem;
+    color: #b89bea;
+    text-shadow: #050407 1px 3px 2px;
+    text-align: center;
+    margin-top: auto;
+    background-color: #ebdfbe;
+}
+
+ol{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+button,th {
+    color: white;
+    background-color: #c68ece;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    padding: 0.6rem 1rem;
+    box-shadow: #420c7a 1px 1px 6px;
+    margin: 2%;
+    cursor: pointer;
+}
+
+button > a {
+    color: white;
+}
+
+@media (width < 768px) {
+    header{
+        display: inline;
+    }
+
+    h1{
+        font-size: 100px;
+        width: auto;
+        text-shadow: #040306 2px 2px 1.5px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    div{
+        margin: 2%;
+    }
+
+    #informacion {
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    #informacion .info h2{
+        width: auto;
+    }
+
+    #informacion .mis-detalles{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .parrafo{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        transition: all 0.01s linear;
+    }
+
+    .opinion-sugerencia {  
+        background-color: #f6e8eb; 
+    }
+
+    #contacto .formulario{
+        height: auto;
+    }
+
+    ol {
+        display: inline-block;
+    }
+}
