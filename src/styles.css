@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-style: italic;
+  background: linear-gradient(135deg, #6d6262, #6d6262);
+  color: #333;
+  line-height: 1.6;
+  animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+p {
+  font-size: 1.8em;
+  color: #fff;
+}
+
+li {
+  text-align: center;
+  font-size: 1.4em;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #00f;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #00f;
+}
+
+.proyectos a {
+  margin-left: 10px;
+  color: #00f;
+  transition: color 0.3s ease;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.redes a {
+  text-decoration: none;
+  color: #00f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.redes a i {
+  font-size: 1.4em;
+}
+
+.redes a:hover {
+  color: #1565c0;
+  transform: scale(1.1);
+}
+
+.proyectos a:hover {
+  color: #00f;
+}
+
+.navbar a:hover {
+  color: #1565c0;
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.8em;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+header {
+  background-color: #03204b;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+  animation: slide-down 1s ease-in-out;
+}
+
+header h1 {
+  font-size: 4.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #03204b;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.identidad {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.identidad p {
+  font-size: 1.8em;
+  color: #fff;
+}
+
+.biografia,
+.redes {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.imagen img {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  border: 4px solid #00f;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+  transition: transform 0.3s;
+}
+
+.imagen img:hover {
+  transform: scale(1.05);
+}
+
+.caracteristicas,
+.contactos {
+  text-align: center;
+}
+
+.proyectos {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.proyectos h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.proyectos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.redes ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  flex-wrap: wrap;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #03204b;
+  color: #fff;
+  margin-top: 40px;
+}
+
+html {
+  scroll-padding-top: 100px;
+}
