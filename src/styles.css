@@ -12,6 +12,16 @@ header h1 {
   color: #1a13a5;
 }
 
+/* Estilo para la imagen del header */
+header img {
+    display: block; /* Centrar la imagen */
+    margin: 20px auto; /* Espaciado superior e inferior, centrado horizontal */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
 main section > h2 {
   color: #1976d9;
   margin-top: 20px;
