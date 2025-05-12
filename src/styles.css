@@ -1,0 +1,112 @@
+html {
+  background-color: lightcyan;
+  font-family: Inter, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header{
+  background-color: lightskyblue;
+  border-bottom: 10px solid lightskyblue;
+}
+
+footer {
+  border-top: 5px solid lightskyblue;
+  text-align: center;
+}
+
+footer b {
+  opacity: 0.6;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.contenedor {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: aliceblue;
+  box-shadow: 0 2px 10px 1px black;
+}
+
+.contenedor-imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 40px;
+}
+
+img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.contenedores {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+#contenedor-biografia {
+  margin: 20px;
+  text-align: center;
+}
+
+div .clase1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: justify;
+  height: 125px;
+  text-shadow: 2px 2px 1px lightblue;
+}
+
+#contenedor-hobbies {
+  background-image: url("./img/fondo_hobbies.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(255 255 255 / 51.4%);
+  background-blend-mode: overlay;
+}
+
+p:not(.clase1) {
+  color: black;
+}
