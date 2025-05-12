@@ -1,0 +1,121 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; 
+  color: #036; 
+}
+
+/* Estilo de la NAV */
+nav {
+  background-color: #036; 
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgb(0, 0, 0); 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  color: burlywood;
+}
+
+/* Encabezado */
+header {
+  background-color: #061b30; 
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Secciones */
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #e6f2ff; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0); 
+}
+
+section h2 {
+  color: #036;
+  border-bottom: 2px solid #036; 
+  padding-bottom: 5px;
+}
+
+section p, section ul {
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #036; /* Azul oscuro */
+  color: white;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #00008B;
+}
+
+h2, h3 {
+  color: #DEB887;
+}
+
+/* Cambia el color de los párrafos dentro de una sección */
+section p {
+  color: #00008B;
+}
+
+/* Aplica un estilo solo al primer elemento de la lista */
+ul > li:first-child {
+  font-weight: bold;
+}
+
+/* Cambia el color del texto al pasar el mouse */
+h1:hover {
+  color: #F5F5F5;
+}
+
+div p {
+  line-height: 1.6;
+}
