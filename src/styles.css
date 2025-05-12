@@ -17,7 +17,7 @@ header img {
     display: block; /* Centrar la imagen */
     margin: 20px auto; /* Espaciado superior e inferior, centrado horizontal */
     border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    box-shadow: 0 4px 8px rgb(0 0 0 / 20%); /* Sombra suave con notación moderna */
     max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
 }
