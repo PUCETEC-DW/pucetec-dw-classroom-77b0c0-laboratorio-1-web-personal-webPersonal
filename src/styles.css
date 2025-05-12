@@ -24,31 +24,31 @@ h3 {
 
 /* Estilo para el nav */
 nav {
-    background-color: #333; /* Fondo oscuro */
-    padding: 10px 0;
+  background-color: #333; /* Fondo oscuro */
+  padding: 10px 0;
 }
 
 nav ul {
-    list-style: none; /* Quitar viñetas */
-    margin: 0;
-    padding: 0;
-    display: flex; /* Mostrar los elementos en línea */
-    justify-content: center; /* Centrar los elementos */
+  list-style: none; /* Quitar viñetas */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Mostrar los elementos en línea */
+  justify-content: center; /* Centrar los elementos */
 }
 
 nav ul li {
-    margin: 0 15px; /* Espaciado entre los elementos */
+  margin: 0 15px; /* Espaciado entre los elementos */
 }
 
 nav ul li a {
-    text-decoration: none; /* Quitar subrayado */
-    color: white; /* Texto blanco */
-    font-weight: bold;
-    transition: color 0.3s; /* Animación suave para el hover */
+  text-decoration: none; /* Quitar subrayado */
+  color: white; /* Texto blanco */
+  font-weight: bold;
+  transition: color 0.3s; /* Animación suave para el hover */
 }
 
 nav ul li a:hover {
-    color: #ff5733; /* Cambiar color al pasar el mouse */
+  color: #ff5733; /* Cambiar color al pasar el mouse */
 }
 
 /* Hover para elementos de lista */
@@ -67,30 +67,30 @@ footer {
 
 /* Estilo para la imagen de perfil */
 .profile-pic {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Hace la imagen circular */
-    border: 3px solid #333;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Hace la imagen circular */
+  border: 3px solid #333;
 }
 
 /* Estilo para los enlaces de redes sociales */
 footer ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
 footer ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
 footer ul li a:hover {
-    color: #ff5733;
+  color: #ff5733;
 }
