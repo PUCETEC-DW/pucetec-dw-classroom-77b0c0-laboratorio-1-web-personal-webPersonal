@@ -94,6 +94,7 @@ a:hover { color: #f8a5c2; }
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   position: relative;
+  text-align: center;
 }
 
 .modal-contenido img {
@@ -115,14 +116,23 @@ a:hover { color: #f8a5c2; }
 .cerrar:hover { color: #000; }
 
 .contacto-redes {
-  text-align: center;
+  overflow: hidden; 
+  margin-top: 30px;
 }
 
 .contacto-redes > div {
-  display: inline-block;
-  width: 45%;
-  margin: 10px;
+  width: 48%; 
+  float: left; 
+  margin-right: 4%; 
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
   text-align: left;
+}
+
+.contacto-redes > div:last-child {
+  margin-right: 0;
 }
 
 .contacto input, .contacto textarea {
