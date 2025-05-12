@@ -6,6 +6,7 @@ body {
   animation: gradient-bg 12s ease infinite;
   color: #111;
 }
+
 @keyframes gradient-bg {
   0%,
   100% {
@@ -16,7 +17,9 @@ body {
   }
 }
 
-header,main section,footer {
+header,
+main section,
+footer {
   border-radius: 12px;
   box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
   background: rgb(255 255 255 / 95%);
@@ -50,7 +53,9 @@ header::before {
   z-index: 0;
 }
 
-ul > li, .contacto input, .contacto textarea {
+ul > li,
+.contacto input,
+.contacto textarea {
   margin-bottom: 10px;
 }
 
@@ -147,7 +152,8 @@ a:hover {
   margin-right: 0;
 }
 
-.contacto input, .contacto textarea {
+.contacto input,
+.contacto textarea {
   width: 100%;
   padding: 8px;
   font-size: 14px;
