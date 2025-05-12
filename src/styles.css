@@ -6,14 +6,6 @@ body {
   padding: 0;
 }
 
-/* Estilo para el header */
-header {
-    background-color: #cb9595; /* Mismo color que el contacto */
-    color: white; /* Texto blanco para contraste */
-    text-align: center;
-    padding: 20px 0;
-}
-
 /* Selectores combinados */
 header h1 {
   text-align: center;
