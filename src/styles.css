@@ -7,18 +7,16 @@ body {
   color: #111;
 }
 
-
 @keyframes gradient-bg {
   0%,
   100% {
     background-position: 0% 50%;
   }
-  
+
   50% {
     background-position: 100% 50%;
   }
 }
-
 
 header, main section, footer {
   border-radius: 12px;
@@ -29,7 +27,6 @@ header, main section, footer {
   margin-bottom: 30px;
 }
 
-
 header {
   padding: 40px 20px;
   font-size: 35px;
@@ -37,7 +34,6 @@ header {
   background: rgb(0 0 0 / 60%);
   position: relative;
 }
-
 
 header img {
   position: absolute;
@@ -48,7 +44,6 @@ header img {
   z-index: -1;
 }
 
-
 header::before {
   content: "";
   position: absolute;
@@ -57,16 +52,13 @@ header::before {
   z-index: 0;
 }
 
-
 ul > li, .contacto input, .contacto textarea {
   margin-bottom: 10px;
 }
 
-
 a:hover {
   color: #f8a5c2;
 }
-
 
 .boton {
   display: inline-block;
@@ -84,7 +76,6 @@ a:hover {
   transition: 0.3s;
 }
 
-
 .boton:hover {
   transform: scale(1.05);
   box-shadow:
@@ -92,6 +83,37 @@ a:hover {
     0 0 30px #1abc9c;
 }
 
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  background-color: #693f3f;
+  margin-top: 20px;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+  margin: 0 15px;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 1.1em;
+  display: block;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.nav-bar a:hover {
+  background-color: #933f3f3e;
+}
 
 .modal {
   position: fixed;
@@ -103,12 +125,10 @@ a:hover {
   z-index: 999;
 }
 
-
 .modal:target {
   opacity: 1;
   pointer-events: auto;
 }
-
 
 .modal-contenido {
   background: white;
@@ -121,14 +141,12 @@ a:hover {
   text-align: center;
 }
 
-
 .modal-contenido img {
   max-width: 120px;
   border-radius: 50%;
   border: 3px solid #1abc9c;
   margin-bottom: 10px;
 }
-
 
 .cerrar {
   position: absolute;
@@ -139,17 +157,14 @@ a:hover {
   color: #aaa;
 }
 
-
 .cerrar:hover {
   color: #000;
 }
-
 
 .contacto-redes {
   overflow: hidden;
   margin-top: 30px;
 }
-
 
 .contacto-redes > div {
   width: 48%;
@@ -162,11 +177,9 @@ a:hover {
   text-align: left;
 }
 
-
 .contacto-redes > div:last-child {
   margin-right: 0;
 }
-
 
 .contacto input, .contacto textarea {
   width: 100%;
@@ -175,7 +188,6 @@ a:hover {
   border: 1px solid #ccc;
   border-radius: 6px;
 }
-
 
 .contacto button {
   background-color: #1abc9c;
@@ -187,29 +199,24 @@ a:hover {
   font-weight: bold;
 }
 
-
 .contacto button:hover {
   background-color: #159c86;
 }
-
 
 #habilidades {
   padding: 30px;
   margin-top: 30px;
 }
 
-
 #habilidades h2 {
   margin-bottom: 20px;
   color: #333;
 }
 
-
 #habilidades ul {
   list-style: none;
   padding: 0;
 }
-
 
 #habilidades li {
   position: relative;
@@ -218,7 +225,6 @@ a:hover {
   color: #444;
   padding-left: 24px;
 }
-
 
 #habilidades li::before {
   content: "✓";
