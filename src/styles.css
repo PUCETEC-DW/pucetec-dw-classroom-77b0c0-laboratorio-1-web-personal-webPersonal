@@ -6,10 +6,18 @@ body {
   padding: 0;
 }
 
+/* Estilo para el header */
+header {
+    background-color: #cb9595; /* Mismo color que el contacto */
+    color: white; /* Texto blanco para contraste */
+    text-align: center;
+    padding: 20px 0;
+}
+
 /* Selectores combinados */
 header h1 {
   text-align: center;
-  color: #1a13a5;
+  color: #1329a5;
 }
 
 /* Estilo para la imagen del header */
@@ -63,7 +71,7 @@ nav ul li a:hover {
 
 /* Hover para elementos de lista */
 ul li:hover {
-  color: #3f7;
+  color: rgb(240, 125, 125);
   cursor: pointer;
 }
 
