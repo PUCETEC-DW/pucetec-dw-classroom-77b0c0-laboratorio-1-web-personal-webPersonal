@@ -1,6 +1,6 @@
 /* Estilo general */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif; /* Eliminadas las comillas alrededor de "Arial" */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -61,30 +61,6 @@ nav ul li a:hover {
     color: #ffcccb;
 }
 
-/* Estilo para las secciones */
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-section h2 {
-    color: #ff6f61;
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-/* Estilo para los intereses */
-#intereses ul li {
-    transition: color 0.3s ease; /* Transición suave */
-}
-
-#intereses ul li:hover {
-    color: #ff6f61; /* Color agradable que combina con el diseño */
-}
-
 /* Estilo para el footer */
 footer {
     text-align: center;
@@ -110,4 +86,28 @@ footer ul li a {
 
 footer ul li a:hover {
     color: #ffcccb;
+}
+
+/* Estilo para las secciones */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #ff6f61;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los intereses */
+#intereses ul li {
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+#intereses ul li:hover {
+    color: #ff6f61; /* Color agradable que combina con el diseño */
 }
