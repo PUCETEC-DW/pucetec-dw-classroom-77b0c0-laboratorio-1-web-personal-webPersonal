@@ -1,0 +1,76 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Selectores combinados */
+header h1 {
+  text-align: center;
+  color: #1a13a5;
+}
+
+/* Estilo para la imagen del header */
+header img {
+    display: block; /* Centrar la imagen */
+    margin: 20px auto; /* Espaciado superior e inferior, centrado horizontal */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgb(0 0 0 / 20%); /* Sombra suave con notación moderna */
+    max-width: 50%; /* Reduce el tamaño al 50% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+main section > h2 {
+  color: #1976d9;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #1976d9;
+  margin-top: 10px;
+}
+
+/* Estilo para el nav */
+nav {
+    background-color: #333; /* Fondo oscuro */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none; /* Quitar viñetas */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Mostrar los elementos en línea */
+    justify-content: center; /* Centrar los elementos */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaciado entre los elementos */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quitar subrayado */
+    color: white; /* Texto blanco */
+    font-weight: bold;
+    transition: color 0.3s; /* Animación suave para el hover */
+}
+
+nav ul li a:hover {
+    color: #ff5733; /* Cambiar color al pasar el mouse */
+}
+
+/* Hover para elementos de lista */
+ul li:hover {
+  color: rgb(240 125 125); /* Notación moderna */
+  cursor: pointer;
+}
+
+/* Otros estilos */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #cb9595;
+  margin-top: 20px;
+}
