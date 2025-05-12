@@ -6,16 +6,20 @@ body {
   animation: gradient-bg 12s ease infinite;
   color: #111;
 }
-
 @keyframes gradient-bg {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
 }
 
-header, main section, footer {
+header,main section,footer {
   border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+  background: rgb(255 255 255 / 95%);
   padding: 25px;
   text-align: center;
   margin-bottom: 30px;
@@ -25,7 +29,7 @@ header {
   padding: 40px 20px;
   font-size: 35px;
   color: #fff;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgb(0 0 0 / 60%);
   position: relative;
 }
 
@@ -42,7 +46,7 @@ header::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgb(0 0 0 / 30%);
   z-index: 0;
 }
 
@@ -50,7 +54,9 @@ ul > li, .contacto input, .contacto textarea {
   margin-bottom: 10px;
 }
 
-a:hover { color: #f8a5c2; }
+a:hover {
+  color: #f8a5c2;
+}
 
 .boton {
   display: inline-block;
@@ -62,19 +68,23 @@ a:hover { color: #f8a5c2; }
   background-color: #ffbc77;
   border-radius: 30px;
   text-decoration: none;
-  box-shadow: 0 0 10px #ffbc77, 0 0 20px #1abc9c;
+  box-shadow:
+    0 0 10px #ffbc77,
+    0 0 20px #1abc9c;
   transition: 0.3s;
 }
 
 .boton:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #ffbc77, 0 0 30px #1abc9c;
+  box-shadow:
+    0 0 15px #ffbc77,
+    0 0 30px #1abc9c;
 }
 
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgb(0 0 0 / 60%);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.4s;
@@ -92,7 +102,7 @@ a:hover { color: #f8a5c2; }
   padding: 20px;
   max-width: 500px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
   position: relative;
   text-align: center;
 }
@@ -113,20 +123,22 @@ a:hover { color: #f8a5c2; }
   color: #aaa;
 }
 
-.cerrar:hover { color: #000; }
+.cerrar:hover {
+  color: #000;
+}
 
 .contacto-redes {
-  overflow: hidden; 
+  overflow: hidden;
   margin-top: 30px;
 }
 
 .contacto-redes > div {
-  width: 48%; 
-  float: left; 
-  margin-right: 4%; 
+  width: 48%;
+  float: left;
+  margin-right: 4%;
   box-sizing: border-box;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgb(255 255 255 / 95%);
   border-radius: 12px;
   text-align: left;
 }
@@ -153,16 +165,24 @@ a:hover { color: #f8a5c2; }
   font-weight: bold;
 }
 
-.contacto button:hover { background-color: #159c86; }
+.contacto button:hover {
+  background-color: #159c86;
+}
 
 #habilidades {
   padding: 30px;
   margin-top: 30px;
 }
 
-#habilidades h2 { margin-bottom: 20px; color: #333; }
+#habilidades h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
 
-#habilidades ul { list-style: none; padding: 0; }
+#habilidades ul {
+  list-style: none;
+  padding: 0;
+}
 
 #habilidades li {
   position: relative;
