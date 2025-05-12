@@ -1,25 +1,25 @@
 /* Estilo general */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 /* Selectores combinados */
 header h1 {
-    text-align: center;
-    color: #333;
+  text-align: center;
+  color: #1a13a5;
 }
 
 main section > h2 {
-    color: #0056b3;
-    margin-top: 20px;
+  color: #1976d9;
+  margin-top: 20px;
 }
 
-ul li:hover {
-    color: #ff5733;
-    cursor: pointer;
+h3 {
+  color: #1976d9;
+  margin-top: 10px;
 }
 
 /* Estilo para el nav */
@@ -51,10 +51,16 @@ nav ul li a:hover {
     color: #ff5733; /* Cambiar color al pasar el mouse */
 }
 
+/* Hover para elementos de lista */
+ul li:hover {
+  color: #3f7;
+  cursor: pointer;
+}
+
 /* Otros estilos */
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f4f4f4;
-    margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #cb9595;
+  margin-top: 20px;
 }
