@@ -37,26 +37,26 @@ header {
 
 /* Fondo de pagina */
 html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-  flex: 1;
+    flex: 1;
 }
 
 .footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #fdf5c0;
-  color: deeppink;
-  font-weight: bold;
-  border-radius: 12px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #fdf5c0;
+    color: deeppink;
+    font-weight: bold;
+    border-radius: 12px;
 }
 
-/* marguen imagen  */
+/* marguen imagen */
 .contenedor-imagen {
     text-align: center;
     margin: 30px 0;
@@ -76,33 +76,13 @@ main {
     font-style: italic;
 }
 
-
 /* Barra de busqueda */
-.navbar {
-    background-color: #baff90;
-    padding: 15px;
-    text-align: center;
-}
-.navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-}
-
-body {
-    line-height: 1.8;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px;
-}
-
 .navbar {
     background-color: #a9f59f;
     padding: 15px;
     border-radius: 10px;
     margin: 0;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
     text-align: center;
 }
 
@@ -112,6 +92,13 @@ body {
     display: inline-flex;
     gap: 25px;
     list-style: none;
+}
+
+body {
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .navbar a {
@@ -127,30 +114,14 @@ body {
 
 /* Efecto de rebote */
 .navbar a:hover {
-    animation: bounce 0.5s;
-}
-
-@keyframes bounce {
-    0%, 100% { transform: translateY(-3px); }
-    50% { transform: translateY(-5px); }
-}
-
-/* Botones barra de busqueda */
-.btn {
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #fff; 
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    color: #fff;
+    background-color: #fe77dc;
 }
 
 .content-section {
-  display: none;
+    display: none;
 }
-
 
 .content-section:target {
-  display: block;
+    display: block;
 }
-
