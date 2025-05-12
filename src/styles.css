@@ -22,26 +22,26 @@ header>span{
 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 40px;
-  transition: font-size 0.3s ease-out;
+  transition: font-size 30% ease-out;
 }
 
 @keyframes cambiarFuente {
-  0%  { font-family: "Cormorant Garamond", serif; }
-  25% { font-family: 'Arial', sans-serif; }
-  50%  { font-family: "Cormorant Garamond", serif; }
-  75% { font-family: 'Arial', sans-serif; }
-  100% { font-family: "Cormorant Garamond", serif; }
+  0%  { font-family: Cormorant Garamond, serif; }
+  25% { font-family: Arial, sans-serif; }
+  50%  { font-family: Cormorant Garamond, serif; }
+  75% { font-family: Arial, sans-serif; }
+  100% { font-family: Cormorant Garamond, serif; }
 }
 
-#complemento_de_h1{
+#complementodeh1{
   animation: cambiarFuente 15s infinite;
 }
 
-.imagen_personal{
+.imagenpersonal{
   width: 50%;               /* Hace que la imagen ocupe el 100% del contenedor */
   height: auto;              /* Mantiene la relación de aspecto */
   border-radius: 400px;        /* Bordes redondeados */
-  box-shadow: 4px 4px 10px rgba(15, 39, 255, 0.3); /* Sombra suave */
+  box-shadow: 4px 4px 10px blue; /* Sombra suave */
   display: block;            /* Hace que la imagen sea un bloque (eliminando el espacio debajo) */
   margin: 40px auto;    
 }
@@ -56,7 +56,6 @@ header>span{
 
 
 footer{
-  text-align: center;
   background-color: black; /* Fondo oscuro */
   color: white;           /* Texto blanco */
   text-align: center;     /* Centrado del texto */
